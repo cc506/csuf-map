@@ -8,16 +8,17 @@ mapboxgl.accessToken =
 const Map = () => {
   const mapContainerRef = useRef(null);
 
-  const [lng, setLng] = useState(5);
-  const [lat, setLat] = useState(34);
-  const [zoom, setZoom] = useState(1.5);
+  const [lng, setLng] = useState(-117.8854);
+  const [lat, setLat] = useState(33.8833);
+  const [zoom, setZoom] = useState(16);
 
   // Initialize map when component mounts
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mapbox/light-v10',
       center: [lng, lat],
+      pitch: 60,
       zoom: zoom
     });
 
