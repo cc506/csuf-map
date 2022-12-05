@@ -1,0 +1,3519 @@
+{
+  "locations": [
+    {
+      "title": "Anderson Field",
+      "description": "<p>657-278-2777</p><a href=mailto:titanathletics@fullerton.edu>titanathletics@fullerton.edu</a><br />",
+      "building": "Anderson Field",
+      "buildingCode": "AF",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/anderson-field.jpg",
+      "imageAlt": "Anderson Field",
+      "center": {
+        "lat": 33.885870,
+        "lng": -117.884984
+      },
+      "radius": 30
+    },
+    {
+      "title": "Arts Drive Visitor Information center",
+      "description": "<p>657-278-3082</p><p>vicstaff@fullerton.edu</p><p>Visitors may purchase daily permit - credit cards only</p>",
+      "building": "Arts Drive Visitor Information center",
+      "buildingCode": "Arts Drive Visitor Information center",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/Becker.jpg",
+      "imageAlt": "Becker Amphitheater",
+      "center": {
+        "lat": 33.879638,
+        "lng": -117.888077
+      },
+      "radius": 20
+    },
+    {
+      "title": "Associated Road Visitor Information center",
+      "description": "<p>657-278-3082</p><p>vicstaff@fullerton.edu</p><p>Visitors may purchase daily permit - credit cards only</p>",
+      "building": "Associated Road Visitor Information center",
+      "buildingCode": "Associated Road Visitor Information center",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/Becker.jpg",
+      "imageAlt": "Becker Amphitheater",
+      "center": {
+        "lat": 33.888062,
+        "lng": -117.885738
+      },
+      "radius": 20
+    },
+    {
+      "title": "Auxiliary Services Corporation",
+      "description": "<p>657-278-3415</p>",
+      "building": "Auxiliary Services Corporation",
+      "buildingCode": "ASC",
+      "departments": [
+        {
+          "title": "Auxiliary Services Corp",
+          "roomNumber": "THALL-ASC-100",
+          "website": "https://fullerton.edu/asc/",
+          "email": "",
+          "phone": "657-278-3415"
+        },
+        {
+          "title": "Center for Demographic Research",
+          "roomNumber": "ASC-238",
+          "website": "http://fullerton.edu/cdr",
+          "email": "publicinfo@fullerton.edu",
+          "phone": "657-278-3009"
+        }
+      ],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.881242,
+        "lng": -117.890569
+      },
+      "radius": 20
+    },
+    {
+      "title": "Becker Amphitheater",
+      "description": "<p>657-278-5867</p><a href=mailto:tsures2@fullerton.edu>tsures2@fullerton.edu</a><a href=https://asi.fullerton.edu/titan-student-union#UCC>https://asi.fullerton.edu/titan-student-union#UCC</a><br />",
+      "building": "Becker Amphitheater",
+      "buildingCode": "BA",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/Becker.jpg",
+      "imageAlt": "Becker Amphitheater",
+      "center": {
+        "lat": 33.8812487,
+        "lng": -117.8870974
+      },
+      "radius": 20
+    },
+    {
+      "title": "Bookstore/Titan Shops",
+      "description": "",
+      "building": "Bookstore/Titan Shops",
+      "buildingCode": "B",
+      "departments": [
+        {
+          "title": "Titan Shops",
+          "roomNumber": "C-101",
+          "website": "http://www.titanshops.com",
+          "email": "titanshopsweb@fullerton.edu",
+          "phone": "657-278-3418"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/titan-shop.jpg",
+      "imageAlt": "Bookstore/Titan Shops",
+      "center": {
+        "lat": 33.881893,
+        "lng": -117.886841
+      },
+      "radius": 25
+    },
+    {
+      "title": "Byrnes Circle (West of Anderson Field)",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>No visitor or public parking</p>",
+      "building": "Byrnes Circle (West of Anderson Field)",
+      "buildingCode": "Byrnes Circle (West of Anderson Field)",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/Becker.jpg",
+      "imageAlt": "Becker Amphitheater",
+      "center": {
+        "lat": 33.885973,
+        "lng": -117.885816
+      },
+      "radius": 20
+    },
+    {
+      "title": "Children's Center",
+      "description": "",
+      "building": "Children's Center",
+      "buildingCode": "CC",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/childrens-center.jpg",
+      "imageAlt": "Children's Center",
+      "center": {
+        "lat": 33.885713,
+        "lng": -117.888277
+      },
+      "radius": 50
+    },
+    {
+      "title": "Clayes Performing Arts Center",
+      "description": "",
+      "building": "Clayes Performing Arts Center",
+      "buildingCode": "CPAC",
+      "departments": [
+        {
+          "title": "Arena Theatre",
+          "roomNumber": "CPAC-113",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-3371"
+        },
+        {
+          "title": "Hallberg Theatre",
+          "roomNumber": "CPAC-180",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-3371"
+        },
+        {
+          "title": "Little Theatre",
+          "roomNumber": "CPAC-100",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-3371"
+        },
+        {
+          "title": "McGarvey Dance Studio",
+          "roomNumber": "CPAC-272",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-3371"
+        },
+        {
+          "title": "Meng Concert Hall",
+          "roomNumber": "CPAC-176",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-3371"
+        },
+        {
+          "title": "Minor Hall",
+          "roomNumber": "CPAC-119",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-3371"
+        },
+        {
+          "title": "Recital Hall",
+          "roomNumber": "CPAC-110",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-3371"
+        },
+        {
+          "title": "School Of Music",
+          "roomNumber": "CPAC-220",
+          "website": "https://www.fullerton.edu/arts/music/",
+          "email": "",
+          "phone": "657-278-3511"
+        },
+        {
+          "title": "Theatre &amp; Dance",
+          "roomNumber": "CPAC-139",
+          "website": "http://www.fullerton.edu/arts/theatre/",
+          "email": "",
+          "phone": "657-278-3628"
+        },
+        {
+          "title": "Thorsen Hall",
+          "roomNumber": "CPAC-127",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-3371"
+        },
+        {
+          "title": "Young Theatre",
+          "roomNumber": "CPAC-199",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-3371"
+        }
+      ],
+      "image": "https://uawebstg.fullerton.edu/campusmapv2/_resources/images/cpac.jpg",
+      "imageAlt": "Clayes Performing Arts Center",
+      "center": {
+        "lat": 33.880835,
+        "lng": -117.886506
+      },
+      "radius": 60
+    },
+    {
+      "title": "College Park",
+      "description": "",
+      "building": "College Park",
+      "buildingCode": "CP",
+      "departments": [
+        {
+          "title": "Academic Affairs/Provost Office",
+          "roomNumber": "CP-1060",
+          "website": "http://www.fullerton.edu/acadaffairs/",
+          "email": "academicaffairs@fullerton.edu",
+          "phone": "657-278-2614"
+        },
+        {
+          "title": "Academic Finances and Space Management",
+          "roomNumber": "CP-1060",
+          "website": "https://www.fullerton.edu/acadaffairs/acad-units/acadfinances.php",
+          "email": "academicaffairs@fullerton.edu",
+          "phone": "657-278-2614"
+        },
+        {
+          "title": "Academic Programs",
+          "roomNumber": "CP-950",
+          "website": "https://www.fullerton.edu/academicprograms/",
+          "email": "avpap@fullerton.edu",
+          "phone": "657-278-3602"
+        },
+        {
+          "title": "Academic Talent Management",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/departmentalinfo/staffdirectory.php",
+          "email": "",
+          "phone": "657-278-4989"
+        },
+        {
+          "title": "Accounting Services &amp; Financial Reporting",
+          "roomNumber": "CP-300",
+          "website": "https://adminfin.fullerton.edu/finance/asfr/",
+          "email": "asfr@fullerton.edu",
+          "phone": "657-278-2512"
+        },
+        {
+          "title": "Accounts Payable/Travel",
+          "roomNumber": "CP-300",
+          "website": "https://adminfin.fullerton.edu/finance/ap_travel",
+          "email": "ap@fullerton.edu",
+          "phone": "657-278-2512"
+        },
+        {
+          "title": "ADA Accommodations",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/workerscompensation/DisabledEmpAccom.php",
+          "email": "",
+          "phone": "657-278-2521"
+        },
+        {
+          "title": "Administrative Systems (AFIT)",
+          "roomNumber": "CP-340",
+          "website": "http://afit.fullerton.edu/",
+          "email": "afitsupport@fullerton.edu",
+          "phone": "657-278-3737"
+        },
+        {
+          "title": "Administrative Systems (AFIT)",
+          "roomNumber": "CP-340",
+          "website": "http://afit.fullerton.edu/",
+          "email": "afitsupport@fullerton.edu",
+          "phone": "657-278-3737"
+        },
+        {
+          "title": "Admission to Teacher Education",
+          "roomNumber": "CP-540",
+          "website": "http://ed.fullerton.edu/prospective-students/admissions.php",
+          "email": "admteachered@fullerton.edu",
+          "phone": "657-278-3205"
+        },
+        {
+          "title": "Assessment and Institutional Effectiveness",
+          "roomNumber": "CP-950-918",
+          "website": "https://www.fullerton.edu/data/",
+          "email": "data@fullerton.edu",
+          "phone": "657-278-2593"
+        },
+        {
+          "title": "Avanti Markets @ Nutwood Café",
+          "roomNumber": "CP",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-4124"
+        },
+        {
+          "title": "Benefits/Retirement Services",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/payroll_benefits/",
+          "email": "",
+          "phone": "657-278-2425"
+        },
+        {
+          "title": "Center for Autism Education Core",
+          "roomNumber": "CP-570",
+          "website": "http://autismcenter.fullerton.edu",
+          "email": "autismeducation@fullerton.edu",
+          "phone": "657-278-3493"
+        },
+        {
+          "title": "Center for Children Who Stutter",
+          "roomNumber": "CP-150",
+          "website": "http://communications.fullerton.edu/centers_and_clinics/ccws/",
+          "email": "",
+          "phone": "657-278-4570"
+        },
+        {
+          "title": "Center for Maximizing Teacher Impact",
+          "roomNumber": "CP-600",
+          "website": "http://ed.fullerton.edu/impact/",
+          "email": "",
+          "phone": "657-278-7769"
+        },
+        {
+          "title": "Center for Research on Educational Access and Leadership",
+          "roomNumber": "CP-620",
+          "website": "http://ed.fullerton.edu/c-real/",
+          "email": "CREAL@fullerton.edu",
+          "phone": "657-278-8510"
+        },
+        {
+          "title": "Children's Summer Programs",
+          "roomNumber": "THALL-1403",
+          "website": "https://extension.fullerton.edu/childrens",
+          "email": "eipconnect@fullerton.edu",
+          "phone": "657-278-2611"
+        },
+        {
+          "title": "Cinema and Television Arts",
+          "roomNumber": "CP-650-07",
+          "website": "http://communications.fullerton.edu/ctva/",
+          "email": "ctva@fullerton.edu",
+          "phone": "657-278-7883"
+        },
+        {
+          "title": "College of Communications",
+          "roomNumber": "CP-400",
+          "website": "http://communications.fullerton.edu/comm/",
+          "email": "commdept@fullerton.edu",
+          "phone": "657-278-3517"
+        },
+        {
+          "title": "College of Communications Dean's Office",
+          "roomNumber": "CP-450",
+          "website": "http://communications.fullerton.edu/",
+          "email": "deanasst@fullerton.edu",
+          "phone": "657-278-3355"
+        },
+        {
+          "title": "College of Education",
+          "roomNumber": "CP-500",
+          "website": "http://ed.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-3411"
+        },
+        {
+          "title": "Communication Sciences and Disorders",
+          "roomNumber": "CP-425",
+          "website": "http://communications.fullerton.edu/",
+          "email": "commdassistant@fullerton.edu",
+          "phone": "657-278-3274"
+        },
+        {
+          "title": "Compensation Services",
+          "roomNumber": "CP-700",
+          "website": "",
+          "email": "hrcc@fullerton.edu",
+          "phone": "657-278-4355"
+        },
+        {
+          "title": "Contracts and Procurement",
+          "roomNumber": "CP-300",
+          "website": "https://adminfin.fullerton.edu/cp/",
+          "email": "DL-C_and_P@fullerton.edu",
+          "phone": "657-278-2411"
+        },
+        {
+          "title": "Credential Preparation Center",
+          "roomNumber": "CP-540",
+          "website": "http://ed.fullerton.edu/cpc/",
+          "email": "credentialsonline@fullerton.edu",
+          "phone": "657-278-3205"
+        },
+        {
+          "title": "Degree and Postbac Programs",
+          "roomNumber": "CP-100",
+          "website": "https://masters.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-2611"
+        },
+        {
+          "title": "Discrimination, Harassment and Retaliation (DHR)",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/faculty_staff_relations/DiscriminationHarassment.php",
+          "email": "bmiles@fullerton.edu",
+          "phone": "657-278-4933"
+        },
+        {
+          "title": "Diversity, Inclusion and Equity Programs",
+          "roomNumber": "CP-700",
+          "website": "",
+          "email": "Diversity@fullerton.edu",
+          "phone": "657-278-2918"
+        },
+        {
+          "title": "Educational Leadership",
+          "roomNumber": "CP-520",
+          "website": "http://ed.fullerton.edu/edleadership/",
+          "email": "edleadership@fullerton.edu",
+          "phone": "657-278-4023"
+        },
+        {
+          "title": "Elementary and Bilingual Education",
+          "roomNumber": "EC-324",
+          "website": "http://ed.fullerton.edu/edel/",
+          "email": "edelsa@fullerton.edu",
+          "phone": "657-278-4731"
+        },
+        {
+          "title": "Engagement and Learning",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/diversity/contactus.php",
+          "email": "diversity@fullerton.edu",
+          "phone": "657-278-3883"
+        },
+        {
+          "title": "Faculty &amp; Staff Visas/Permanent Residency",
+          "roomNumber": "CP-770",
+          "website": "https://hr.fullerton.edu/employmentsrvcs/Immigration.php",
+          "email": "sledoux@fullerton.edu",
+          "phone": "657-278-2255"
+        },
+        {
+          "title": "Financial Services",
+          "roomNumber": "CP-300",
+          "website": "https://adminfin.fullerton.edu/finance/",
+          "email": "",
+          "phone": "657-278-2512"
+        },
+        {
+          "title": "Government and Community Relations",
+          "roomNumber": "",
+          "website": "http://community.fullerton.edu",
+          "email": "titanadvocates@fullerton.edu",
+          "phone": "657-278-4730"
+        },
+        {
+          "title": "Human Communication Studies",
+          "roomNumber": "CP-420",
+          "website": "http://communications.fullerton.edu/hcom/",
+          "email": "spcommasst@fullerton.edu",
+          "phone": "657-278-3617"
+        },
+        {
+          "title": "Human Resources Services",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-2425"
+        },
+        {
+          "title": "Human Resources, Diversity and Inclusion",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/departmentalinfo/ContactUs.php",
+          "email": "vphr@fullerton.edu",
+          "phone": "657-278-8213"
+        },
+        {
+          "title": "Instructional Design &amp; Technology",
+          "roomNumber": "CP-570",
+          "website": "http://ed.fullerton.edu/msidt/",
+          "email": "msidt@fullerton.edu",
+          "phone": "657-278-2842"
+        },
+        {
+          "title": "Labor/Employee Relations",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/faculty_staff_relations/",
+          "email": "ler@fullerton.edu",
+          "phone": "657-278-7521"
+        },
+        {
+          "title": "Latino Communications Institute",
+          "roomNumber": "CP-460-24",
+          "website": "http://communications.fullerton.edu/studentlife/lci/",
+          "email": "",
+          "phone": "657-278-2826"
+        },
+        {
+          "title": "Literacy &amp; Reading Education",
+          "roomNumber": "CP-570",
+          "website": "http://ed.fullerton.edu/reading/",
+          "email": "reading@fullerton.edu",
+          "phone": "657-278-3497"
+        },
+        {
+          "title": "Maxwell Center for International Communications",
+          "roomNumber": "CP-460-11",
+          "website": "http://communications.fullerton.edu/centers_and_clinics/maxwell_center/maxwellcenter.php",
+          "email": "",
+          "phone": "657-278-3271"
+        },
+        {
+          "title": "National Resource Center for Asian Languages",
+          "roomNumber": "CP-610",
+          "website": "http://www.fullerton.edu/nrcal/",
+          "email": "nrcal@fullerton.edu",
+          "phone": "657-278-4335"
+        },
+        {
+          "title": "Payroll Services",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/payroll_benefits/",
+          "email": "hrpr@fullerton.edu",
+          "phone": "657-278-2521"
+        },
+        {
+          "title": "Philanthropic Foundation",
+          "roomNumber": "",
+          "website": "http://foundation.fullerton.edu",
+          "email": "foundation@fullerton.edu",
+          "phone": "657-278-2786"
+        },
+        {
+          "title": "Presidents Office",
+          "roomNumber": "CP-1000",
+          "website": "https://president.fullerton.edu/",
+          "email": "presidentvirjee@fullerton.edu",
+          "phone": "657-278-3456"
+        },
+        {
+          "title": "Records/Information Requests &amp; Subpoenas",
+          "roomNumber": "CP-770",
+          "website": "https://hr.fullerton.edu/riskmanagement/summonsandcomplaints/",
+          "email": "agrogan@fullerton.edu",
+          "phone": "657-278-5465"
+        },
+        {
+          "title": "Resource Planning and Budget",
+          "roomNumber": "CP-300",
+          "website": "https://resourceplanning.fullerton.edu/",
+          "email": "budget@fullerton.edu",
+          "phone": "657-278-2512"
+        },
+        {
+          "title": "Risk Management",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/riskmanagement/",
+          "email": "risk@fullerton.edu",
+          "phone": "657-278-7346"
+        },
+        {
+          "title": "Secondary Education",
+          "roomNumber": "CP-600",
+          "website": "http://ed.fullerton.edu/seced/",
+          "email": "edsc@fullerton.edu",
+          "phone": "657-278-7769"
+        },
+        {
+          "title": "Special Education",
+          "roomNumber": "CP-570",
+          "website": "http://ed.fullerton.edu/sped/",
+          "email": "sped1@fullerton.edu",
+          "phone": "657-278-5453"
+        },
+        {
+          "title": "Speech and Hearing Clinic",
+          "roomNumber": "CP-150",
+          "website": "http://communications.fullerton.edu/speechclinic/",
+          "email": "speechclinic@fullerton.edu",
+          "phone": "657-278-3997"
+        },
+        {
+          "title": "Strategic Communications and Marketing",
+          "roomNumber": "CP",
+          "website": "http://www.fullerton.edu/advancement/stratcomm/",
+          "email": "strategiccomm@fullerton.edu",
+          "phone": "657-278-4849"
+        },
+        {
+          "title": "Student Business Services",
+          "roomNumber": "CP-200",
+          "website": "https://sbs.fullerton.edu/",
+          "email": "sbs@fullerton.edu",
+          "phone": "657-278-2495"
+        },
+        {
+          "title": "Student Business Services Solution Center @ College Park",
+          "roomNumber": "CP-100",
+          "website": "https://sbs.fullerton.edu/",
+          "email": "sbs@fullerton.edu",
+          "phone": "657-278-2495"
+        },
+        {
+          "title": "Student Success Center - Communications",
+          "roomNumber": "CP-210",
+          "website": "http://communications.fullerton.edu/studentsuccess/",
+          "email": "collcommadvising@fullerton.edu",
+          "phone": "657-278-4926"
+        },
+        {
+          "title": "Talent Acquisition",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/departmentalinfo/staffdirectory.php",
+          "email": "hrrecruitment@fullerton.edu",
+          "phone": "657-278-2489"
+        },
+        {
+          "title": "Title IX",
+          "roomNumber": "CP-205",
+          "website": "http://www.fullerton.edu/titleix",
+          "email": "titleix@fullerton.edu",
+          "phone": "657-278-2121"
+        },
+        {
+          "title": "Total Wellness",
+          "roomNumber": "CP-700",
+          "website": "",
+          "email": "DL-TotalWellness@fullerton.edu",
+          "phone": "657-278-2521"
+        },
+        {
+          "title": "University Advancement",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/advancement/",
+          "email": "",
+          "phone": "657-278-5287"
+        },
+        {
+          "title": "Workers' Compensation",
+          "roomNumber": "CP-700",
+          "website": "https://hr.fullerton.edu/workerscompensation/",
+          "email": "",
+          "phone": "657-278-2521"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/college-park.jpg",
+      "imageAlt": "College Park",
+      "center": {
+        "lat": 33.877584,
+        "lng": -117.883445
+      },
+      "radius": 45
+    },
+    {
+      "title": "Commons",
+      "description": "",
+      "building": "Commons",
+      "buildingCode": "C",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.881327,
+        "lng": -117.886619
+      },
+      "radius": 20
+    },
+    {
+      "title": "Computer Science",
+      "description": "",
+      "building": "Computer Science",
+      "buildingCode": "CS",
+      "departments": [
+        {
+          "title": "Assistant Dean's Office - Engineering and Computer Science",
+          "roomNumber": "CS-206B",
+          "website": "",
+          "email": "csantana@fullerton.edu",
+          "phone": "657-278-4407"
+        },
+        {
+          "title": "Center for Cybersecurity",
+          "roomNumber": "CS-522",
+          "website": "http://www.fullerton.edu/cybersecurity/",
+          "email": "mgofman@fullerton.edu",
+          "phone": "657-278-7304"
+        },
+        {
+          "title": "College International Advisor",
+          "roomNumber": "CS-206A",
+          "website": "",
+          "email": "anescobar@fullerton.edu",
+          "phone": "657-278-3813"
+        },
+        {
+          "title": "College of Engineering and Computer Science",
+          "roomNumber": "CS-502",
+          "website": "http://www.fullerton.edu/ecs/dean.php",
+          "email": "sbarua@fullerton.edu",
+          "phone": "657-278-3362"
+        },
+        {
+          "title": "Computer Science",
+          "roomNumber": "CS-522",
+          "website": "http://www.fullerton.edu/ecs/cs/",
+          "email": "csoffice@fullerton.edu",
+          "phone": "657-278-3700"
+        },
+        {
+          "title": "Environmental Engineering Program",
+          "roomNumber": "CS-108",
+          "website": "http://www.fullerton.edu/ecs/env/",
+          "email": "enveng@fullerton.edu",
+          "phone": "657-278-3012"
+        },
+        {
+          "title": "Software Engineering Program",
+          "roomNumber": "CS-108",
+          "website": "http://www.fullerton.edu/ecs/mse/",
+          "email": "mse@fullerton.edu",
+          "phone": "657-278-5674"
+        },
+        {
+          "title": "Student Success Center - Engineering and Computer Science",
+          "roomNumber": "CS-201",
+          "website": "http://www.fullerton.edu/ecs/resources/StudentSuccessCenter.php",
+          "email": "ecsadvising@fullerton.edu",
+          "phone": "657-278-3879"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/ECS.jpg",
+      "imageAlt": "Computer Science",
+      "center": {
+        "lat": 33.882349,
+        "lng": -117.882750
+      },
+      "radius": 20
+    },
+    {
+      "title": "Corporation Yard",
+      "description": "<p>Located on these grounds:</p><ul><li>Receiving</li></ul>",
+      "building": "Corporation Yard",
+      "buildingCode": "CY",
+      "departments": [],
+      "image": "_resources/Titan-Stadium-Cal-State-University-Fullerton",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.884345,
+        "lng": -117.888866
+      },
+      "radius": 45
+    },
+    {
+      "title": "Dan Black Hall",
+      "description": "",
+      "building": "Dan Black Hall",
+      "buildingCode": "DBH",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/black-hall.jpg",
+      "imageAlt": "Dan Black Hall",
+      "center": {
+        "lat": 33.879305,
+        "lng": -117.885845
+      },
+      "radius": 25
+    },
+    {
+      "title": "Eastside (Folino Drive) Visitor Information center",
+      "description": "<p>657-278-3082</p><p>vicstaff@fullerton.edu</p><p>Visitors may purchase daily permit - credit cards only</p>",
+      "building": "Eastside (Folino Drive) Visitor Information center",
+      "buildingCode": "Eastside (Folino Drive) Visitor Information center",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/Becker.jpg",
+      "imageAlt": "Becker Amphitheater",
+      "center": {
+        "lat": 33.879679,
+        "lng": -117.881718
+      },
+      "radius": 20
+    },
+    {
+      "title": "Eastside Parking Structure",
+      "description": "<p><a href=http://parking.fullerton.edu/parkinglotcounts/mobile.aspx target=_blank>Parking Space Availability</a></p>",
+      "building": "Eastside Parking Structure",
+      "buildingCode": "EPS",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/eastside-parking.jpg",
+      "imageAlt": "Eastside Parking Structure",
+      "center": {
+        "lat": 33.880356,
+        "lng": -117.881687
+      },
+      "radius": 40
+    },
+    {
+      "title": "Eastside Parking Structure 2 (Under Construction)",
+      "description": "<p><a href=http://parking.fullerton.edu/parkinglotcounts/mobile.aspx target=_blank>Parking Space Availability</a></p>",
+      "building": "Eastside Parking Structure 2 (Under Construction)",
+      "buildingCode": "EPS2",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/eastside-parking.jpg",
+      "imageAlt": "Eastside Parking Structure",
+      "center": {
+        "lat": 33.881079,
+        "lng": -117.881804
+      },
+      "radius": 20
+    },
+    {
+      "title": "Education Classroom",
+      "description": "",
+      "building": "Education Classroom",
+      "buildingCode": "EC",
+      "departments": [
+        {
+          "title": "Center for Autism Applied Developmental Core",
+          "roomNumber": "EC-560",
+          "website": "http://autismcenter.fullerton.edu/applieddevelopmentalcore/",
+          "email": "autismcenterkids@fullerton.edu",
+          "phone": "657-278-7891"
+        },
+        {
+          "title": "Center for Careers in Teaching",
+          "roomNumber": "EC-379",
+          "website": "http://ed.fullerton.edu/cct/",
+          "email": "askcct@fullerton.edu",
+          "phone": "657-278-7130"
+        },
+        {
+          "title": "Center for Community Collaboration",
+          "roomNumber": "EC-456",
+          "website": "http://hhd.fullerton.edu/ccc",
+          "email": "",
+          "phone": "657-278-3890"
+        },
+        {
+          "title": "Child and Adolescent Studies",
+          "roomNumber": "EC-503",
+          "website": "http://hhd.fullerton.edu/cas",
+          "email": "chadmajor@fullerton.edu",
+          "phone": "657-278-8458"
+        },
+        {
+          "title": "College of Health and Human Development",
+          "roomNumber": "EC-606",
+          "website": "http://hhd.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-3311"
+        },
+        {
+          "title": "Counseling",
+          "roomNumber": "EC-405",
+          "website": "http://hhd.fullerton.edu/counsel",
+          "email": "",
+          "phone": "657-278-8444"
+        },
+        {
+          "title": "Elementary and Bilingual Education",
+          "roomNumber": "EC-324",
+          "website": "",
+          "email": "edelsa@fullerton.edu",
+          "phone": "657-278-4731"
+        },
+        {
+          "title": "Hazel Miller Croy Reading Center",
+          "roomNumber": "EC-24",
+          "website": "http://ed.fullerton.edu/readingcenter/",
+          "email": "readingcenter@fullerton.edu",
+          "phone": "657-278-3497"
+        },
+        {
+          "title": "Human Services",
+          "roomNumber": "EC-405",
+          "website": "http://hhd.fullerton.edu/husr",
+          "email": "",
+          "phone": "657-278-8444"
+        },
+        {
+          "title": "Nursing",
+          "roomNumber": "EC-190",
+          "website": "http://nursing.fullerton.edu/",
+          "email": "nursing@fullerton.edu",
+          "phone": "657-278-3336"
+        },
+        {
+          "title": "Social Work",
+          "roomNumber": "EC-207",
+          "website": "http://hhd.fullerton.edu/MSW",
+          "email": "",
+          "phone": "657-278-8452"
+        },
+        {
+          "title": "Student Success Center - Health and Human Development",
+          "roomNumber": "EC-105 KHS-193",
+          "website": "http://hhd.fullerton.edu/SSC/StudentSuccess/SSTeam.htm",
+          "email": "",
+          "phone": "657-278-2294  657-278-3292 "
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/education-classroom.jpg",
+      "imageAlt": "Education Classroom",
+      "center": {
+        "lat": 33.881386,
+        "lng": -117.884348
+      },
+      "radius": 20
+    },
+    {
+      "title": "Engineering",
+      "description": "",
+      "building": "Engineering",
+      "buildingCode": "E",
+      "departments": [
+        {
+          "title": "Center for Collaborative Research and Prototype Development",
+          "roomNumber": "E-43",
+          "website": "http://www.fullerton.edu/ccrpd/",
+          "email": "ccrpd@fullerton.edu",
+          "phone": "657-278-4847"
+        },
+        {
+          "title": "Center for Navigation",
+          "roomNumber": "E-402B",
+          "website": "",
+          "email": "ecsnavcenter@fullerton.edu",
+          "phone": "657-278-7140"
+        },
+        {
+          "title": "Civil &amp; Environmental Engineering",
+          "roomNumber": "E-100",
+          "website": "http://www.fullerton.edu/ecs/cee/",
+          "email": "cee@fullerton.edu",
+          "phone": "657-278-3012"
+        },
+        {
+          "title": "Computer Engineering",
+          "roomNumber": "E-100G",
+          "website": "http://www.fullerton.edu/ecs/cpe/",
+          "email": "Dttp://www.fulllerton.edu",
+          "phone": "657-278-5987"
+        },
+        {
+          "title": "Electrical Engineering",
+          "roomNumber": "E-100A",
+          "website": "https://www.fullerton.edu/ecs/ee/",
+          "email": "elecengoffice@fullerton.edu",
+          "phone": "657-278-3013"
+        },
+        {
+          "title": "Mechanical Engineering",
+          "roomNumber": "E-100",
+          "website": "http://www.fullerton.edu/ecs/me/",
+          "email": "mechengoffice@fullerton.edu",
+          "phone": "657-278-3014"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/ECS.jpg",
+      "imageAlt": "Engineering",
+      "center": {
+        "lat": 33.882349,
+        "lng": -117.883290
+      },
+      "radius": 20
+    },
+    {
+      "title": "Fullerton Arboretum",
+      "description": "<p>657-278-3407</p><a href=mailto:farboretum@fullerton.edu>farboretum@fullerton.edu</a><br /><a href=https://fullertonarboretum.org>https://fullertonarboretum.org</a>",
+      "building": "Fullerton Arboretum",
+      "buildingCode": "ARB",
+      "departments": [
+        {
+          "title": "Arboretum Administration",
+          "roomNumber": "",
+          "website": "http://fullertonarboretum.org",
+          "email": "farboretum@fullerton.edu",
+          "phone": "657-278-3407"
+        },
+        {
+          "title": "Arboretum Classrooms",
+          "roomNumber": "",
+          "website": "http://fullertonarboretum.org",
+          "email": "farboretum@fullerton.edu",
+          "phone": "657-278-3407"
+        },
+        {
+          "title": "Arboretum Nature Center",
+          "roomNumber": "",
+          "website": "http://fullertonarboretum.org",
+          "email": "farboretum@fullerton.edu",
+          "phone": "657-278-3407"
+        },
+        {
+          "title": "Arboretum Pavilion",
+          "roomNumber": "",
+          "website": "http://fullertonarboretum.org",
+          "email": "farboretum@fullerton.edu",
+          "phone": "657-278-3407"
+        },
+        {
+          "title": "Arboretum Plaza",
+          "roomNumber": "",
+          "website": "http://fullertonarboretum.org",
+          "email": "farboretum@fullerton.edu",
+          "phone": "657-278-3407"
+        },
+        {
+          "title": "Children's Garden",
+          "roomNumber": "",
+          "website": "http://fullertonarboretum.org",
+          "email": "farboretum@fullerton.edu",
+          "phone": "657-278-3407"
+        },
+        {
+          "title": "Green House",
+          "roomNumber": "",
+          "website": "http://fullertonarboretum.org",
+          "email": "farboretum@fullerton.edu",
+          "phone": "657-278-3407"
+        },
+        {
+          "title": "Heritage House",
+          "roomNumber": "",
+          "website": "http://fullertonarboretum.org",
+          "email": "farboretum@fullerton.edu",
+          "phone": "657-278-3407"
+        }
+      ],
+      "image": "https://uawebstg.fullerton.edu/campusmapv2/_resources/images/arboretum.jpg",
+      "imageAlt": "Fullerton Arboretum",
+      "center": {
+        "lat": 33.8872799,
+        "lng": -117.8833914
+      },
+      "radius": 70
+    },
+    {
+      "title": "Gastronome",
+      "description": "",
+      "building": "Gastronome",
+      "buildingCode": "Gastronome",
+      "departments": [
+        {
+          "title": "Gastronome 160 Meeting Room",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Late Night Café",
+          "roomNumber": "",
+          "website": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/gastronome.jpg",
+      "imageAlt": "Gastronome",
+      "center": {
+        "lat": 33.883177,
+        "lng": -117.882261
+      },
+      "radius": 30
+    },
+    {
+      "title": "Golf Practice Facility",
+      "description": "<p>657-278-2777</p><a href=mailto:titanathletics@fullerton.edu>titanathletics@fullerton.edu</a><br />",
+      "building": "Golf Practice Facility",
+      "buildingCode": "Golf Practice Facility",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/Becker.jpg",
+      "imageAlt": "Becker Amphitheater",
+      "center": {
+        "lat": 33.885890,
+        "lng": -117.884339
+      },
+      "radius": 20
+    },
+    {
+      "title": "Golleher Alumni House",
+      "description": "<p>Located in this building:</p><ul><li><a href=http://www.fullerton.edu/alumni target=_blank>Alumni Association</a></li></ul>",
+      "building": "Golleher Alumni House",
+      "buildingCode": "GAH",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/golleher.jpg",
+      "imageAlt": "Golleher Alumni House",
+      "center": {
+        "lat": 33.882280,
+        "lng": -117.889382
+      },
+      "radius": 20
+    },
+    {
+      "title": "Goodwin Field",
+      "description": "<p>657-278-2777</p><a href=mailto:titanathletics@fullerton.edu>titanathletics@fullerton.edu</a><br />",
+      "building": "Goodwin Field",
+      "buildingCode": "GF",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/goodwin-field.jpg",
+      "imageAlt": "Goodwin Field",
+      "center": {
+        "lat": 33.886698,
+        "lng": -117.885456
+      },
+      "radius": 60
+    },
+    {
+      "title": "Gordon Hall",
+      "description": "",
+      "building": "Gordon Hall",
+      "buildingCode": "GH",
+      "departments": [
+        {
+          "title": "American Studies",
+          "roomNumber": "GH-313",
+          "website": "http://amst.fullerton.edu/",
+          "email": "amerstudiestemp@fullerton.edu",
+          "phone": "657-278-2441"
+        },
+        {
+          "title": "Carl's Jr",
+          "roomNumber": "Behind UH",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-3880"
+        },
+        {
+          "title": "Center for Public Policy",
+          "roomNumber": "GH-511",
+          "website": "http://cpp.fullerton.edu/",
+          "email": "justintucker@Fullerton.edu",
+          "phone": "657-278-3521"
+        },
+        {
+          "title": "Disability Support Services",
+          "roomNumber": "GH-101",
+          "website": "http://www.fullerton.edu/DSS/",
+          "email": "dsservices@fullerton.edu",
+          "phone": "657-278-3112"
+        },
+        {
+          "title": "Educational Opportunity Program",
+          "roomNumber": "GH-231",
+          "website": "http://www.fullerton.edu/eop/",
+          "email": "eopadmissions@fullerton.edu",
+          "phone": "657-278-2784"
+        },
+        {
+          "title": "English, Comparative Literature, and Linguistics",
+          "roomNumber": "GH-322",
+          "website": "http://english.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-3163"
+        },
+        {
+          "title": "Male Success Initiative",
+          "roomNumber": "GH-230 ",
+          "website": "https://www.fullerton.edu/msi/",
+          "email": "csufmsi@fullerton.edu",
+          "phone": "657-278-4870"
+        },
+        {
+          "title": "Office of Financial Aid",
+          "roomNumber": "GH-146",
+          "website": "https://www.fullerton.edu/financialaid/",
+          "email": "financialaid@fullerton.edu",
+          "phone": "657-278-3125"
+        },
+        {
+          "title": "Outreach and Recruitment Tours",
+          "roomNumber": "GH-178",
+          "website": "https://www.fullerton.edu/or",
+          "email": "csuforo@fullerton.edu",
+          "phone": "657-278-2086  657-278-2501"
+        },
+        {
+          "title": "Politics, Administration, and Justice",
+          "roomNumber": "GH-511",
+          "website": "http://hss.fullerton.edu/paj/",
+          "email": "pajdiv@fullerton.edu",
+          "phone": "657-278-3521"
+        },
+        {
+          "title": "Religious Studies (formerly Comparative Religion)",
+          "roomNumber": "GH-313",
+          "website": "http://religion.fullerton.edu/",
+          "email": "amerstudiestemp@fullerton.edu",
+          "phone": "657-278-2442"
+        },
+        {
+          "title": "Student Academic Services",
+          "roomNumber": "GH-143",
+          "website": "http://www.fullerton.edu/sa/assessment/retention/studentacademicservices.php",
+          "email": "sacademicserv@fullerton.edu",
+          "phone": "657-278-2288"
+        },
+        {
+          "title": "Student Success Center - Humanities and Social Sciences",
+          "roomNumber": "H-112 GH-211B",
+          "website": "http://hss.fullerton.edu/student_success_team/SSCenter/StudentSuccessCenter.aspx",
+          "email": "hssuccessteam@fullerton.edu",
+          "phone": "657-278-2594"
+        },
+        {
+          "title": "Student Support Services",
+          "roomNumber": "GH-179",
+          "website": "https://www.fullerton.edu/sss/",
+          "email": "SSS@Fullerton.edu",
+          "phone": "657-278-5210"
+        },
+        {
+          "title": "Summer Bridge",
+          "roomNumber": "GH-143",
+          "website": "www.fullerton.edu/eop/bridge/",
+          "email": "sacademicserv@fullerton.edu",
+          "phone": "657-278-2288"
+        },
+        {
+          "title": "University Cashiers ",
+          "roomNumber": "GH-180",
+          "website": "https://sbs.fullerton.edu/",
+          "email": "sbs@fullerton.edu",
+          "phone": "657-278-2495"
+        },
+        {
+          "title": "University Testing Center",
+          "roomNumber": "GH-143",
+          "website": "http://www.fullerton.edu/testing/",
+          "email": "sacademicserv@fullerton.edu",
+          "phone": "657-278-2288"
+        },
+        {
+          "title": "Veterans Resource Center",
+          "roomNumber": "GH-244",
+          "website": "https://www.fullerton.edu/veterans/",
+          "email": "veterans@fullerton.edu",
+          "phone": "657-278-8660 657-278-2373"
+        },
+        {
+          "title": "WoMen's and Adult Reentry Center",
+          "roomNumber": "GH-205",
+          "website": "http://www.fullerton.edu/adultreentry/",
+          "email": "womenscenter@fullerton.edu",
+          "phone": "657-278-3928"
+        },
+        {
+          "title": "WoMen's Center",
+          "roomNumber": "GH-205",
+          "website": "https://www.fullerton.edu/womenscenter/",
+          "email": "womenscenter@fullerton.edu",
+          "phone": "657-278-3928"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/UH.jpg",
+      "imageAlt": "Gordon Hall (formerly University Hall)",
+      "center": {
+        "lat": 33.8796662,
+        "lng": -117.8841377
+      },
+      "radius": 30
+    },
+    {
+      "title": "Humanities-Social Sciences",
+      "description": "",
+      "building": "Humanities-Social Sciences",
+      "buildingCode": "H",
+      "departments": [
+        {
+          "title": "African American Studies",
+          "roomNumber": "H-314",
+          "website": "http://hss.fullerton.edu/african-american/",
+          "email": "ethnicstudies@fullerton.edu",
+          "phone": "657-278-3848"
+        },
+        {
+          "title": "Aging Studies",
+          "roomNumber": "H-424",
+          "website": "http://hss.fullerton.edu/agingstudies/",
+          "email": "agingstudies@fullerton.edu",
+          "phone": "657-278-7057"
+        },
+        {
+          "title": "Asian American Studies",
+          "roomNumber": "H-314",
+          "website": "http://hss.fullerton.edu/asian-american/",
+          "email": "ethnicstudies@fullerton.edu",
+          "phone": "657-278-2006"
+        },
+        {
+          "title": "Center for Remote Sensing and Environmental Analysis",
+          "roomNumber": "H-419",
+          "website": "http://geography.fullerton.edu/Teaching_Research/RemoteSensingEnvironment.aspx",
+          "email": "",
+          "phone": "657-278-5223"
+        },
+        {
+          "title": "Chicana and Chicano Studies",
+          "roomNumber": "H-314",
+          "website": "http://hss.fullerton.edu/chicano/",
+          "email": "ethnicstudies@fullerton.edu",
+          "phone": "657-278-3731"
+        },
+        {
+          "title": "College of Humanities and Social Sciences",
+          "roomNumber": "H-211",
+          "website": "http://hss.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-3528"
+        },
+        {
+          "title": "Environmental Studies",
+          "roomNumber": "H-420A",
+          "website": "http://hss.fullerton.edu/envstud/",
+          "email": "",
+          "phone": "657-278-3162"
+        },
+        {
+          "title": "Fullerton International Resources for Students and Teachers",
+          "roomNumber": "H-725",
+          "website": "http://first.fullerton.edu/",
+          "email": "cdecapite@fullerton.edu",
+          "phone": "657-278-7664"
+        },
+        {
+          "title": "Geography and the Environment",
+          "roomNumber": "H-420A",
+          "website": "http://geography.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-3161"
+        },
+        {
+          "title": "History",
+          "roomNumber": "H-815F",
+          "website": "http://hss.fullerton.edu/history/",
+          "email": "",
+          "phone": "657-278-3474"
+        },
+        {
+          "title": "Latin American Studies",
+          "roomNumber": "H-420A",
+          "website": "http://hss.fullerton.edu/latinamerican/",
+          "email": "",
+          "phone": "657-278-3361"
+        },
+        {
+          "title": "Liberal Studies",
+          "roomNumber": "H-230",
+          "website": "http://lbst.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-8533"
+        },
+        {
+          "title": "Modern Languages and Literatures",
+          "roomNumber": "H-835A",
+          "website": "http://hss.fullerton.edu/mll/",
+          "email": "",
+          "phone": "657-278-3534"
+        },
+        {
+          "title": "Philosophy",
+          "roomNumber": "H-230",
+          "website": "http://philosophy.fullerton.edu/",
+          "email": "philosophy@fullerton.edu",
+          "phone": "657-278-3611"
+        },
+        {
+          "title": "Psychology",
+          "roomNumber": "H-830M     H-830L",
+          "website": "http://psychology.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-3514"
+        },
+        {
+          "title": "Student Success Center - Humanities and Social Sciences",
+          "roomNumber": "GH-211B",
+          "website": "http://hss.fullerton.edu/student_success_team/SSCenter/StudentSuccessCenter.aspx",
+          "email": "hssuccessteam@fullerton.edu",
+          "phone": "657-278-2594"
+        },
+        {
+          "title": "Twin Studies Center",
+          "roomNumber": "H-426C",
+          "website": "http://drnancysegaltwins.org/",
+          "email": "nsegal@fullerton.edu",
+          "phone": "657-278-2568"
+        },
+        {
+          "title": "Women and Gender Studies",
+          "roomNumber": "H-230",
+          "website": "http://hss.fullerton.edu/womens/",
+          "email": "",
+          "phone": "657-278-3888"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/humanities.jpg",
+      "imageAlt": "Humanities-Social Sciences",
+      "center": {
+        "lat": 33.880510,
+        "lng": -117.884151
+      },
+      "radius": 20
+    },
+    {
+      "title": "Jewell Plummer Cobb Residence Halls",
+      "description": "",
+      "building": "Jewell Plummer Cobb Residence Halls",
+      "buildingCode": "RH",
+      "departments": [
+        {
+          "title": "Basketball/Sand Volleyball Courts",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Cypress",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Cypress Multipurpose Room",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Sycamore",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "University Police Community Resource Center",
+          "roomNumber": "",
+          "website": "https://police.fullerton.edu/ourteam/",
+          "email": "upd.pio@fullerton.edu",
+          "phone": "657-278-5533"
+        },
+        {
+          "title": "UPD Community Resource Center",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Valencia",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        }
+      ],
+      "image": "",
+      "imageAlt": "Residence Halls",
+      "center": {
+        "lat": 33.885984,
+        "lng": -117.882177
+      },
+      "radius": 40
+    },
+    {
+      "title": "Kinesiology & Health Science",
+      "description": "",
+      "building": "Kinesiology & Health Science",
+      "buildingCode": "KHS",
+      "departments": [
+        {
+          "title": "Center for Cancer Disparities Research",
+          "roomNumber": "KHS-106A",
+          "website": "http://disparities.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-3822"
+        },
+        {
+          "title": "Center for Sociocultural Sport and Olympic Research",
+          "roomNumber": "KHS-121",
+          "website": "http://cssor.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-8907"
+        },
+        {
+          "title": "Center for Sport Performance",
+          "roomNumber": "KHS-121",
+          "website": "http://hhd.fullerton.edu/knes/csp/",
+          "email": "CSP@fullerton.edu",
+          "phone": "657-278-3428"
+        },
+        {
+          "title": "Center for Successful Aging",
+          "roomNumber": "KHS-011C",
+          "website": "http://hhd.fullerton.edu/csa/",
+          "email": "successaging@fullerton.edu",
+          "phone": "657-278-7012"
+        },
+        {
+          "title": "Center for the Promotion of Healthy Lifestyles and Obesity Prevention",
+          "roomNumber": "KHS-106A",
+          "website": "http://healthylifestyles.fullerton.edu/",
+          "email": "healthylifestyles@fulerton.edu",
+          "phone": "657-278-3807"
+        },
+        {
+          "title": "Employee Wellness Program",
+          "roomNumber": "KHS-001",
+          "website": "http://hdcs.fullerton.edu/ewp/",
+          "email": "employeewellness@fullerton.edu",
+          "phone": "657-278-4404"
+        },
+        {
+          "title": "Fibromyalgia and Chronic Pain Center",
+          "roomNumber": "KHS-106F",
+          "website": "http://fmcp.fullerton.edu/",
+          "email": "fmcp@fullerton.edu",
+          "phone": "657-278-7031"
+        },
+        {
+          "title": "Health Promotion Research Institute",
+          "roomNumber": "KHS-106A",
+          "website": "http://hpri.fullerton.edu/",
+          "email": "hpri@fullerton.edu",
+          "phone": ""
+        },
+        {
+          "title": "KHS Diving Well",
+          "roomNumber": "KHS",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "KHS Golf Lab",
+          "roomNumber": "KHS-019",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "KHS Pool",
+          "roomNumber": "KHS",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "Kinesiology",
+          "roomNumber": "KHS-121",
+          "website": "http://hhd.fullerton.edu/knes",
+          "email": "",
+          "phone": "657-278-3316"
+        },
+        {
+          "title": "Public Health",
+          "roomNumber": "KHS-121",
+          "website": "http://hdcs.fullerton.edu/hesc",
+          "email": "",
+          "phone": "657-278-3316"
+        },
+        {
+          "title": "School of Nursing Simulation Lab",
+          "roomNumber": "KHS",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "Student Success Center - Health and Human Development",
+          "roomNumber": "EC-105 KHS-193",
+          "website": "http://hhd.fullerton.edu/SSC/StudentSuccess/SSTeam.htm",
+          "email": "",
+          "phone": "657-278-2294  657-278-3292 "
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/kinesiology.jpg",
+      "imageAlt": "Kinesiology & Health Science",
+      "center": {
+        "lat": 33.882697,
+        "lng": -117.886076
+      },
+      "radius": 35
+    },
+    {
+      "title": "Langsdorf Hall",
+      "description": "",
+      "building": "Langsdorf Hall",
+      "buildingCode": "LH",
+      "departments": [
+        {
+          "title": "Administration and Finance",
+          "roomNumber": "LH-802",
+          "website": "https://adminfin.fullerton.edu",
+          "email": "vpadmin@fullerton.edu",
+          "phone": "657-278-2115"
+        },
+        {
+          "title": "Athletic Academic Services",
+          "roomNumber": "LH-209",
+          "website": "http://www.fullertontitans.com/athletics/academics",
+          "email": "titanscholars@fullerton.edu",
+          "phone": "657-278-3057"
+        },
+        {
+          "title": "Career Center",
+          "roomNumber": "LH-208",
+          "website": "http://www.fullerton.edu/career/",
+          "email": "careercenter@fullerton.edu",
+          "phone": "657-278-3121"
+        },
+        {
+          "title": "Center for Internships and Community Engagement",
+          "roomNumber": "LH-206",
+          "website": "http://www.fullerton.edu/cice",
+          "email": "cice@fullerton.edu",
+          "phone": "657-278-3746"
+        },
+        {
+          "title": "Center for Sustainability",
+          "roomNumber": "LH-321A",
+          "website": "http://sustainability.fullerton.edu/",
+          "email": "sustainability@fullerton.edu",
+          "phone": "657-278-4373"
+        },
+        {
+          "title": "Information Technology - IT",
+          "roomNumber": "LH-700",
+          "website": "",
+          "email": "",
+          "phone": "657-278-8500"
+        },
+        {
+          "title": "LH Express",
+          "roomNumber": "LH 2nd floor",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-3962 | 657-278-4943"
+        },
+        {
+          "title": "Office of Admissions",
+          "roomNumber": "LH-114",
+          "website": "http://admissions.fullerton.edu/",
+          "email": "admissions@fullerton.edu",
+          "phone": "657-278-3100"
+        },
+        {
+          "title": "Orientation",
+          "roomNumber": "LH-540",
+          "website": "http://www.fullerton.edu/orientation",
+          "email": "orientation@fullerton.edu",
+          "phone": "657-278-2501"
+        },
+        {
+          "title": "Registration and Records",
+          "roomNumber": "LH-114",
+          "website": "http://records.fullerton.edu/",
+          "email": "arsc@fullerton.edu",
+          "phone": "657-278-7601"
+        },
+        {
+          "title": "Student Affairs",
+          "roomNumber": "LH-805",
+          "website": "http://www.fullerton.edu/sa/contact.php",
+          "email": "vpsa@fullerton.edu",
+          "phone": "657-278-3221"
+        },
+        {
+          "title": "The Brief Stop",
+          "roomNumber": "LH 2nd floor",
+          "website": "http://www.titanshops.com/",
+          "email": "titanshopsweb@fullerton.edu",
+          "phone": "657-278-3418"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/langsdorf.jpg",
+      "imageAlt": "Langsdorf Hall",
+      "center": {
+        "lat": 33.879057,
+        "lng": -117.884333
+      },
+      "radius": 30
+    },
+    {
+      "title": "McCarthy Hall",
+      "description": "",
+      "building": "McCarthy Hall",
+      "buildingCode": "MH",
+      "departments": [
+        {
+          "title": "Anthropology",
+          "roomNumber": "MH-426",
+          "website": "http://anthro.fullerton.edu/",
+          "email": "anthrodivision@fullerton.edu",
+          "phone": "657-278-3626"
+        },
+        {
+          "title": "Archaeological Research Facility",
+          "roomNumber": "MH-426",
+          "website": "http://anthro.fullerton.edu/arf/",
+          "email": "anthrodivision@fullerton.edu",
+          "phone": "657-278-3626"
+        },
+        {
+          "title": "Biological Science",
+          "roomNumber": "MH-282",
+          "website": "http://www.fullerton.edu/biology/",
+          "email": "",
+          "phone": "657-278-3614"
+        },
+        {
+          "title": "Catalyst Center for the Advancement of Research in Teaching &amp; Learning Mathematics &amp; Science",
+          "roomNumber": "MH-531",
+          "website": "http://www.fullerton.edu/catalyst",
+          "email": "",
+          "phone": "657-278-7027"
+        },
+        {
+          "title": "Center for Applied Biotechnology Studies",
+          "roomNumber": "MH-282",
+          "website": "http://cabs.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-3614"
+        },
+        {
+          "title": "Center for Computational and Applied Mathematics",
+          "roomNumber": "MH-531",
+          "website": "http://ccam.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-8560"
+        },
+        {
+          "title": "Center for Ethnographic Cultural Analysis",
+          "roomNumber": "MH-426",
+          "website": "http://anthro.fullerton.edu/ceca/",
+          "email": "sagrant@fullerton.edu or kstocker@fullerton.edu",
+          "phone": "657-278-3626"
+        },
+        {
+          "title": "Chemistry and Biochemistry",
+          "roomNumber": "MH-580",
+          "website": "http://www.fullerton.edu/chemistry/",
+          "email": "",
+          "phone": "657-278-3621"
+        },
+        {
+          "title": "College of Natural Sciences and Mathematics",
+          "roomNumber": "MH-166",
+          "website": "",
+          "email": "",
+          "phone": "657-278-2638"
+        },
+        {
+          "title": "Geological Sciences",
+          "roomNumber": "MH-254",
+          "website": "http://www.fullerton.edu/geology/",
+          "email": "",
+          "phone": "657-278-3882"
+        },
+        {
+          "title": "Gravitational-Wave Physics and Astronomy Center",
+          "roomNumber": "MH-601",
+          "website": "https://physics.fullerton.edu/gwpac/",
+          "email": "",
+          "phone": "657-278-3366"
+        },
+        {
+          "title": "Mathematics",
+          "roomNumber": "MH-154",
+          "website": "http://www.fullerton.edu/math/",
+          "email": "",
+          "phone": "657-278-3631"
+        },
+        {
+          "title": "Physics",
+          "roomNumber": "MH-611",
+          "website": "http://physics.fullerton.edu/",
+          "email": "",
+          "phone": "657-278-3366"
+        },
+        {
+          "title": "Project RAISE Transfer Resource Center",
+          "roomNumber": "MH-525",
+          "website": "http://www.fullerton.edu/projectraise/csuf-students/trc.php",
+          "email": "raise@fullerton.edu",
+          "phone": "657-278-4876"
+        },
+        {
+          "title": "Social Science Research Center",
+          "roomNumber": "MH-38",
+          "website": "http://hss.fullerton.edu/ssrc",
+          "email": "lisanchez@fullerton.edu",
+          "phone": "657-278-7691"
+        },
+        {
+          "title": "South Central Costal Information Center",
+          "roomNumber": "MH-477",
+          "website": "http://anthro.fullerton.edu/sccic/contact.aspx",
+          "email": "sccic@fullerton.edu",
+          "phone": "657-278-5395"
+        },
+        {
+          "title": "Student Success Center - Natural Sciences and Mathematics",
+          "roomNumber": "MH-488",
+          "website": "http://www.fullerton.edu/nsm/student_success/Student%20Success.php",
+          "email": "",
+          "phone": "657-278-7082"
+        },
+        {
+          "title": "Tuffy's Basic Needs Services",
+          "roomNumber": "MH-143",
+          "website": "https://www.fullerton.edu/deanofstudents/tuffys_basic_needs/index.php",
+          "email": "basicneeds@fullerton.edu",
+          "phone": "657-278-3583"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/mccarthy.jpg",
+      "imageAlt": "McCarthy Hall",
+      "center": {
+        "lat": 33.879706,
+        "lng": -117.885573
+      },
+      "radius": 25
+    },
+    {
+      "title": "Military Science Building",
+      "description": "",
+      "building": "Military Science Building",
+      "buildingCode": "Military Science Building",
+      "departments": [
+        {
+          "title": "Military Science",
+          "roomNumber": "MS-103",
+          "website": "http://hhd.fullerton.edu/militaryscience",
+          "email": "armyrotc@fullerton.edu",
+          "phone": "657-278-3007"
+        }
+      ],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.884144,
+        "lng": -117.884124
+      },
+      "radius": 20
+    },
+    {
+      "title": "Modular Complex",
+      "description": "",
+      "building": "Modular Complex",
+      "buildingCode": "M",
+      "departments": [
+        {
+          "title": "MOD-100A",
+          "roomNumber": "MOD-100A",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-100B",
+          "roomNumber": "MOD-100B",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-100C",
+          "roomNumber": "MOD-100C",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-100D",
+          "roomNumber": "MOD-100D",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-101",
+          "roomNumber": "MOD-101",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-102",
+          "roomNumber": "MOD-102",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-103",
+          "roomNumber": "MOD-103",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-104",
+          "roomNumber": "MOD-104",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-105",
+          "roomNumber": "MOD-105",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-106",
+          "roomNumber": "MOD-106",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-107",
+          "roomNumber": "MOD-107",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-108",
+          "roomNumber": "MOD-108",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-108A",
+          "roomNumber": "MOD-108A",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "MOD-109",
+          "roomNumber": "MOD-109",
+          "website": "",
+          "email": "",
+          "phone": ""
+        }
+      ],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.87887079647147,
+        "lng": -117.88619795107877
+      },
+      "radius": 20
+    },
+    {
+      "title": "Nutwood Parking Structure",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Long-term permit parking - Visitors buy hourly parking from Ground level kiosk</p>",
+      "building": "Nutwood Parking Structure",
+      "buildingCode": "NPS",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/nutwood-parking.jpg",
+      "imageAlt": "Nutwood Parking Structure",
+      "center": {
+        "lat": 33.8790293,
+        "lng": -117.8885204
+      },
+      "radius": 60
+    },
+    {
+      "title": "Parking and Transportation Office",
+      "description": "",
+      "building": "Parking and Transportation Office",
+      "buildingCode": "P",
+      "departments": [
+        {
+          "title": "Campus Mail Room",
+          "roomNumber": "T-300",
+          "website": "https://facilities.fullerton.edu/services/",
+          "email": "cmailcenter@fullerton.edu",
+          "phone": "657-278-2533"
+        },
+        {
+          "title": "Capital Programs and Facilities Management",
+          "roomNumber": "FMA-120",
+          "website": "https://facilities.fullerton.edu/",
+          "email": "facilitiesoperations@fullerton.edu",
+          "phone": "657-278-2122"
+        },
+        {
+          "title": "Environmental Health &amp; Safety",
+          "roomNumber": "T-1475",
+          "website": "https://ehs.fullerton.edu/",
+          "email": "safety@fullerton.edu",
+          "phone": "657-278-7233"
+        },
+        {
+          "title": "Facilities Service Center",
+          "roomNumber": "T-100",
+          "website": "https://facilities.fullerton.edu/services/",
+          "email": "servicecenter@fullerton.edu",
+          "phone": "657-278-3494"
+        },
+        {
+          "title": "Parking and Transportation",
+          "roomNumber": "T-1400",
+          "website": "https://parking.fullerton.edu/",
+          "email": "parking@fullerton.edu",
+          "phone": "657-278-3082"
+        },
+        {
+          "title": "Shipping &amp; Receiving",
+          "roomNumber": "T-1100",
+          "website": "https://facilities.fullerton.edu/services/",
+          "email": "shiprec@fullerton.edu",
+          "phone": "657-278-2532"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/parking.jpg",
+      "imageAlt": "Parking and Transportation Office",
+      "center": {
+        "lat": 33.884845,
+        "lng": -117.889427
+      },
+      "radius": 35
+    },
+    {
+      "title": "Parking Lot A",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Visitors buy daily permit from kiosk - credit cards only</p>",
+      "building": "Parking Lot A",
+      "buildingCode": "Parking Lot A",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.887246,
+        "lng": -117.888922
+      },
+      "radius": 30
+    },
+    {
+      "title": "Parking Lot C East and C West",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Long-term permit parking only - No visitor parking</p>",
+      "building": "Parking Lot C East and C West",
+      "buildingCode": "Parking Lot C East and C West",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.878331,
+        "lng": -117.888350
+      },
+      "radius": 45
+    },
+    {
+      "title": "Parking Lot D",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Long-term permit parking only - No visitor parking</p>",
+      "building": "Parking Lot D",
+      "buildingCode": "Parking Lot D",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.884152,
+        "lng": -117.887855
+      },
+      "radius": 30
+    },
+    {
+      "title": "Parking Lot E",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Long-term permit parking only - No visitor parking</p>",
+      "building": "Parking Lot E",
+      "buildingCode": "Parking Lot E",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.881880,
+        "lng": -117.881648
+      },
+      "radius": 30
+    },
+    {
+      "title": "Parking Lot F",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Long-term permit parking only - No visitor parking</p>",
+      "building": "Parking Lot F",
+      "buildingCode": "Parking Lot F",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.880389,
+        "lng": -117.882965
+      },
+      "radius": 30
+    },
+    {
+      "title": "Parking Lot G",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Visitors buy daily permit from kiosk or Associated Road Visitor Information Center - credit cards only</p>",
+      "building": "Parking Lot G",
+      "buildingCode": "Parking Lot G",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.888301,
+        "lng": -117.886538
+      },
+      "radius": 30
+    },
+    {
+      "title": "Parking Lot H",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Long-term permit parking only - No visitor parking</p>",
+      "building": "Parking Lot H",
+      "buildingCode": "Parking Lot H",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.883894,
+        "lng": -117.883608
+      },
+      "radius": 20
+    },
+    {
+      "title": "Parking Lot I",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Long-term permit parking only - No visitor parking</p>",
+      "building": "Parking Lot I",
+      "buildingCode": "Parking Lot I",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.881478,
+        "lng": -117.882968
+      },
+      "radius": 20
+    },
+    {
+      "title": "Parking Lot J (Osher Life-Long Learning Institute)",
+      "description": "<p>657-278-2446</p><p>olli-info@fullerton.edu</p><p>Long-term permit parking only - No visitor parking</p>",
+      "building": "Parking Lot J (Osher Life-Long Learning Institute)",
+      "buildingCode": "Parking Lot J (Osher Life-Long Learning Institute)",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.883440,
+        "lng": -117.882967
+      },
+      "radius": 20
+    },
+    {
+      "title": "Parking Lot M",
+      "description": "",
+      "building": "Parking Lot M",
+      "buildingCode": "Parking Lot M",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.879508,
+        "lng": -117.883419
+      },
+      "radius": 20
+    },
+    {
+      "title": "Parking Lot R",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Assigned reserved parking only - No visitor parking</p>",
+      "building": "Parking Lot R",
+      "buildingCode": "Parking Lot R",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.882361,
+        "lng": -117.888861
+      },
+      "radius": 20
+    },
+    {
+      "title": "Parking Lot S",
+      "description": "",
+      "building": "Parking Lot S",
+      "buildingCode": "Parking Lot S",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.877097,
+        "lng": -117.883418
+      },
+      "radius": 20
+    },
+    {
+      "title": "Pollak Library",
+      "description": "",
+      "building": "Pollak Library",
+      "buildingCode": "PL",
+      "departments": [
+        {
+          "title": "Abrego Future Scholars",
+          "roomNumber": "PLS-170",
+          "website": "http://www.fullerton.edu/FutureScholars/",
+          "email": "scholars@fullerton.edu",
+          "phone": "657-278-3458"
+        },
+        {
+          "title": "Academic Senate Offices",
+          "roomNumber": "PLN-120",
+          "website": "http://www.fullerton.edu/senate/",
+          "email": "",
+          "phone": "657-278-3683"
+        },
+        {
+          "title": "Academic Technology Center",
+          "roomNumber": "PLS-237",
+          "website": "https://www.fullerton.edu/it/services/atc/",
+          "email": "atc@fullerton.edu",
+          "phone": "657-278-4050"
+        },
+        {
+          "title": "African American Resource Center",
+          "roomNumber": "PLS-180",
+          "website": "https://www.fullerton.edu/aarc/",
+          "email": "aarc@fullerton.edu",
+          "phone": "657-278-3230"
+        },
+        {
+          "title": "Asian Pacific American Resource Center",
+          "roomNumber": "PLS-180",
+          "website": "http://www.fullerton.edu/aparc",
+          "email": "aparc@fullerton.edu",
+          "phone": "657-278-3742"
+        },
+        {
+          "title": "Center for Scholars",
+          "roomNumber": "PLS-170",
+          "website": "http://www.fullerton.edu/scholars/",
+          "email": "scholars@fullerton.edu",
+          "phone": "657-278-3458"
+        },
+        {
+          "title": "Chicana/Chicano Resource Center",
+          "roomNumber": "PLS-180",
+          "website": "http://www.fullerton.edu/crc",
+          "email": "crc@fullerton.edu",
+          "phone": "657-278-2537"
+        },
+        {
+          "title": "Collections &amp; Processing Services",
+          "roomNumber": "PLS 3rd floor",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "Data Visualization Center",
+          "roomNumber": "PLN 2nd Floor",
+          "website": "http://www.fullerton.edu/it/services/data_visualization_center/",
+          "email": "atl@fullerton.edu",
+          "phone": "657-278-3060"
+        },
+        {
+          "title": "Digital Print Services",
+          "roomNumber": "PLN 2nd Floor",
+          "website": "http://dps.fullerton.edu",
+          "email": "dps@fullerton.edu",
+          "phone": "657-278-3964"
+        },
+        {
+          "title": "Diversity Initiatives &amp; Resource Centers",
+          "roomNumber": "PLS-180",
+          "website": "http://www.fullerton.edu/dirc/",
+          "email": "dirc@fullerton.edu",
+          "phone": "657-278-4391"
+        },
+        {
+          "title": "Donoghue Children's Literature Center",
+          "roomNumber": "PLN 4th floor",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "Emeriti Center",
+          "roomNumber": "PLN 4th floor",
+          "website": "http://www.fullerton.edu/emeriti/",
+          "email": "mshapiro@fullerton.edu",
+          "phone": "657-278-7737"
+        },
+        {
+          "title": "Faculty Affairs and Records",
+          "roomNumber": "PLS-290",
+          "website": "https://www.fullerton.edu/far/",
+          "email": "far@fullerton.edu",
+          "phone": "657-278-2125"
+        },
+        {
+          "title": "Faculty Development Center",
+          "roomNumber": "PLS-244",
+          "website": "http://fdc.fullerton.edu/",
+          "email": "fdc@fullerton.edu",
+          "phone": "657-278-4722"
+        },
+        {
+          "title": "Faculty Support Services",
+          "roomNumber": "PLS 2nd floor",
+          "website": "https://www.fullerton.edu/fss/",
+          "email": "facsupserv@fullerton.edu",
+          "phone": "657-278-4660"
+        },
+        {
+          "title": "Freedom Center",
+          "roomNumber": "PLS 3rd floor",
+          "website": "http://libraryguides.fullerton.edu/c.php?g=553931&amp;p=3805988",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "Graduate Student Success Center",
+          "roomNumber": "PLS-365",
+          "website": "http://www.fullerton.edu/graduate/soar/index.php",
+          "email": "gssc@fullerton.edu",
+          "phone": "657-278-3374"
+        },
+        {
+          "title": "Guardian Scholars",
+          "roomNumber": "PLS-170",
+          "website": "https://www.fullerton.edu/guardianscholars/",
+          "email": "scholars@fullerton.edu",
+          "phone": "657-278-3458"
+        },
+        {
+          "title": "Innovation/Makerspace Center",
+          "roomNumber": "PLN-215",
+          "website": "http://www.fullerton.edu/it/innovation_makerspace_center/",
+          "email": "atl@fullerton.edu",
+          "phone": "657-278-3060"
+        },
+        {
+          "title": "Lawrence de Graaf Center for Oral and Public History",
+          "roomNumber": "PLS-363",
+          "website": "http://coph.fullerton.edu/",
+          "email": "coph@fullerton.edu",
+          "phone": "657-278-3580"
+        },
+        {
+          "title": "LGBT Queer Resource Center",
+          "roomNumber": "PLS-180",
+          "website": "http://www.fullerton.edu/lgbtq/",
+          "email": "lgbtq@fullerton.edu",
+          "phone": "657-278-4218"
+        },
+        {
+          "title": "Library Administration",
+          "roomNumber": "PLS 2nd floor",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "Online Education and Training",
+          "roomNumber": "PLS-237",
+          "website": "http://oet.fullerton.edu/",
+          "email": "oet@fullerton.edu",
+          "phone": "657-278-4528"
+        },
+        {
+          "title": "Patrons' Book Sale Center",
+          "roomNumber": "PLS 1st floor",
+          "website": "",
+          "email": "dsandner@fullerton.edu",
+          "phone": ""
+        },
+        {
+          "title": "Presidents' Scholars",
+          "roomNumber": "PLS-170",
+          "website": "http://www.fullerton.edu/PresidentsScholars/",
+          "email": "scholars@fullerton.edu",
+          "phone": "657-278-3458"
+        },
+        {
+          "title": "Research Center",
+          "roomNumber": "PLN 1st floor",
+          "website": "https://www.library.fullerton.edu/services/research-assistance.php",
+          "email": "librefdesk@fullerton.edu",
+          "phone": "657-278-3284"
+        },
+        {
+          "title": "Salz-Pollak Atrium Gallery",
+          "roomNumber": "PLS 1st floor",
+          "website": "",
+          "email": "libexhibits@fullerton.edu",
+          "phone": "657-278-2990"
+        },
+        {
+          "title": "SchoolsFirst Federal Credit Union for Creativity &amp; Critical Thinking",
+          "roomNumber": "PLN-403",
+          "website": "http://ed.fullerton.edu/sfccct/",
+          "email": "sfccct@fullerton.edu",
+          "phone": "657-278-3639"
+        },
+        {
+          "title": "Starbucks - Pollak Library",
+          "roomNumber": "",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-4943"
+        },
+        {
+          "title": "Student Genius Center",
+          "roomNumber": "PLN 1st Floor",
+          "website": "http://www.fullerton.edu/it/students/",
+          "email": "sgc@fullerton.edu",
+          "phone": ""
+        },
+        {
+          "title": "Supplemental Instruction",
+          "roomNumber": "PLS-251",
+          "website": "http://www.fullerton.edu/si/",
+          "email": "toconnell@fullerton.edu",
+          "phone": "657-278-7290"
+        },
+        {
+          "title": "Titan Dreamers Resource Center",
+          "roomNumber": "PLS-180",
+          "website": "http://www.fullerton.edu/tdrc",
+          "email": "tdrc@fullerton.edu",
+          "phone": "657-278-3234"
+        },
+        {
+          "title": "Titan Radio",
+          "roomNumber": "PLS-51",
+          "website": "http://titancom.fullerton.edu/",
+          "email": "titanradio-gm@fullerton.edu",
+          "phone": "657-278-5505"
+        },
+        {
+          "title": "Titan TV",
+          "roomNumber": "PLS-73",
+          "website": "http://titancom.fullerton.edu/",
+          "email": "titancommsupport@fullerton.edu",
+          "phone": "657-278-2836"
+        },
+        {
+          "title": "TitanCard",
+          "roomNumber": "PLS 1st Floor",
+          "website": "http://www.fullerton.edu/it/titancard/",
+          "email": "titancard@fullerton.edu",
+          "phone": "657-278-3555"
+        },
+        {
+          "title": "University Archives and Special Collections",
+          "roomNumber": "PL",
+          "website": "http://www.library.fullerton.edu/services/special-collections.php",
+          "email": "uasc@fullerton.libanswer.com",
+          "phone": "657-278-4751"
+        },
+        {
+          "title": "University Honors Program",
+          "roomNumber": "PLS-160",
+          "website": "http://www.fullerton.edu/honors/",
+          "email": "univhonors@fullerton.edu",
+          "phone": "657-278-7440"
+        },
+        {
+          "title": "University Learning Center",
+          "roomNumber": "PLN First Floor ",
+          "website": "https://www.fullerton.edu/ulc/",
+          "email": "ulc@fullerton.edu",
+          "phone": "657-278-2738"
+        },
+        {
+          "title": "Writing Center",
+          "roomNumber": "PLN 1st floor",
+          "website": "http://english.fullerton.edu/writing_center/",
+          "email": "",
+          "phone": "657-278-3650"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/library.jpg",
+      "imageAlt": "Pollak Library",
+      "center": {
+        "lat": 33.8814145,
+        "lng": -117.885361
+      },
+      "radius": 50
+    },
+    {
+      "title": "Resident Hall Lot (Student Housing)",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Long-term permit parking for students - visitors buy hourly parking from kiosk</p>",
+      "building": "Resident Hall Lot (Student Housing)",
+      "buildingCode": "Resident Hall Lot (Student Housing)",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.884217,
+        "lng": -117.881243
+      },
+      "radius": 20
+    },
+    {
+      "title": "Ruby Gerontology Center",
+      "description": "",
+      "building": "Ruby Gerontology Center",
+      "buildingCode": "RGC",
+      "departments": [
+        {
+          "title": "Osher Lifelong Learning Institute (OLLI)",
+          "roomNumber": "RGC",
+          "website": "https://olli.fullerton.edu/",
+          "email": "Olli-info@fullerton.edu",
+          "phone": "657-278-2446"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/ruby-gerontology.jpg",
+      "imageAlt": "Ruby Gerontology Center",
+      "center": {
+        "lat": 33.8836387,
+        "lng": -117.8832579
+      },
+      "radius": 20
+    },
+    {
+      "title": "South Campus Drive Lot",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Long-term permit parking faculty/staff - Visitors buy hourly parking from kiosk</p>",
+      "building": "South Campus Drive Lot",
+      "buildingCode": "South Campus Drive Lot",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/Becker.jpg",
+      "imageAlt": "Becker Amphitheater",
+      "center": {
+        "lat": 33.878467,
+        "lng": -117.885794
+      },
+      "radius": 20
+    },
+    {
+      "title": "State College Parking Structure",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>Long-term permit parking - Visitors buy hourly parking from Ground level kiosk</p>",
+      "building": "State College Parking Structure",
+      "buildingCode": "SCPS",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/state-college-parking.jpg",
+      "imageAlt": "State College Parking Structure",
+      "center": {
+        "lat": 33.8830553,
+        "lng": -117.8886705
+      },
+      "radius": 35
+    },
+    {
+      "title": "Steven G. Mihaylo Hall",
+      "description": "",
+      "building": "Steven G. Mihaylo Hall",
+      "buildingCode": "SGMH",
+      "departments": [
+        {
+          "title": "Accounting",
+          "roomNumber": "SGMH-4313",
+          "website": "https://business.fullerton.edu/department/accounting/default",
+          "email": "accountingdept@fullerton.edu",
+          "phone": "657-278-2225"
+        },
+        {
+          "title": "Business Advising Center",
+          "roomNumber": "SGMH-1201",
+          "website": "https://business.fullerton.edu/Programs/Undergraduate/Advising",
+          "email": "mcbe@fullerton.edu",
+          "phone": "657-278-2211"
+        },
+        {
+          "title": "Center for Corporate Reporting and Governance",
+          "roomNumber": "SGMH-4357",
+          "website": "https://business.fullerton.edu/center/corporatereportingandgovernance",
+          "email": "ccrg@fullerton.edu",
+          "phone": "657-278-4414"
+        },
+        {
+          "title": "Center for Economic Education",
+          "roomNumber": "SGMH-3357",
+          "website": "https://business.fullerton.edu/center/economiceducation",
+          "email": "econliteracy@fullerton.edu",
+          "phone": "657-278-2249"
+        },
+        {
+          "title": "Center for Entertainment and Hospitality Management",
+          "roomNumber": "SGMH-5284",
+          "website": "https://business.fullerton.edu/center/entertainment-hospitality-management",
+          "email": "ehm@fullerton.edu",
+          "phone": "657-278-8624"
+        },
+        {
+          "title": "Center for Entrepreneurship",
+          "roomNumber": "SGMH-3280",
+          "website": "https://business.fullerton.edu/center/entrepreneurship",
+          "email": "entrepreneurship @fullerton.edu",
+          "phone": "657-278-3464"
+        },
+        {
+          "title": "Center for Family Business",
+          "roomNumber": "SGMH-5284",
+          "website": "https://business.fullerton.edu/center/familybusiness",
+          "email": "",
+          "phone": "657-278-7431"
+        },
+        {
+          "title": "Center for Information Technology and Business Analytics",
+          "roomNumber": "SGMH",
+          "website": "https://business.fullerton.edu/Center/InfoTechAndBusinessAnalytics/",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "Center for Insurance Studies",
+          "roomNumber": "SGMH-4280",
+          "website": "https://business.fullerton.edu/center/insurancestudies",
+          "email": "cis@fullerton.edu",
+          "phone": "657-278-2045"
+        },
+        {
+          "title": "Center for Leadership",
+          "roomNumber": "SGMH-5357",
+          "website": "https://business.fullerton.edu/center/leadership",
+          "email": "leadership@fullerton.edu",
+          "phone": "657-278-5170"
+        },
+        {
+          "title": "Center for Real Estate",
+          "roomNumber": "SGMH-2306",
+          "website": "https://business.fullerton.edu/center/real-estate",
+          "email": "cre@fullerton.edu",
+          "phone": "657-278-8782"
+        },
+        {
+          "title": "Economics",
+          "roomNumber": "SGMH-3313",
+          "website": "https://business.fullerton.edu/department/economics",
+          "email": "econclerical@fullerton.edu",
+          "phone": "657-278-2228"
+        },
+        {
+          "title": "Finance",
+          "roomNumber": "SGMH-5113",
+          "website": "https://business.fullerton.edu/department/finance",
+          "email": "financedeptasst@fullerton.edu",
+          "phone": "657-278-2217"
+        },
+        {
+          "title": "Gianneschi Center for Nonprofit Research",
+          "roomNumber": "SGMH-4118",
+          "website": "https://business.fullerton.edu/center/gianneschinonprofitresearch",
+          "email": "",
+          "phone": "657-278-8071"
+        },
+        {
+          "title": "Information Systems and Decision Science",
+          "roomNumber": "SGMH-4113",
+          "website": "https://business.fullerton.edu/Department/ISDS",
+          "email": "isdsdept@fullerton.edu",
+          "phone": "657-278-2221"
+        },
+        {
+          "title": "Management",
+          "roomNumber": "SGMH-5313",
+          "website": "https://business.fullerton.edu/Department/Management",
+          "email": "managementdept@fullerton.edu",
+          "phone": "657-278-2251"
+        },
+        {
+          "title": "Marketing",
+          "roomNumber": "SGMH-5214",
+          "website": "https://business.fullerton.edu/Department/Marketing",
+          "email": "marketingdept@fullerton.edu",
+          "phone": "657-278-2223"
+        },
+        {
+          "title": "MBA and Graduate Programs",
+          "roomNumber": "SGMH-4210",
+          "website": "https://business.fullerton.edu/Programs/Graduate",
+          "email": "mihaylogradprograms@fullerton.edu",
+          "phone": "657-278-3173"
+        },
+        {
+          "title": "Mihaylo Career Services",
+          "roomNumber": "SGMH-1401",
+          "website": "https://business.fullerton.edu/Career-Services",
+          "email": "MihayloCareers@fullerton.edu",
+          "phone": "657-278-8738"
+        },
+        {
+          "title": "Mihaylo College of Business and Economics",
+          "roomNumber": "SGMH-3100",
+          "website": "https://business.fullerton.edu/",
+          "email": "mcbedeansoffice@fullerton.edu",
+          "phone": "657-278-4652"
+        },
+        {
+          "title": "Mihaylo Tutoring Center",
+          "roomNumber": "SGMH-2404",
+          "website": "https://business.fullerton.edu/Tutoring",
+          "email": "mcbetutoring@fullerton.edu",
+          "phone": "657-278-2704"
+        },
+        {
+          "title": "Real Estate and Land Use Institute",
+          "roomNumber": "SGMH-2306",
+          "website": "https://business.fullerton.edu/center/realestateandlanduse",
+          "email": "cre@fullerton.edu",
+          "phone": "657-278-8782"
+        },
+        {
+          "title": "Sales Leadership Center",
+          "roomNumber": "SGMH-3357",
+          "website": "https://business.fullerton.edu/center/salesleadership",
+          "email": "",
+          "phone": "657-278-3235"
+        },
+        {
+          "title": "SGMH Courtyard",
+          "roomNumber": "SGMH",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "title": "Small Business Development Center",
+          "roomNumber": "SGMH-4157",
+          "website": "https://ociesmallbusiness.org/",
+          "email": "ricalderon@fullerton.edu",
+          "phone": "657-278-1801"
+        },
+        {
+          "title": "Small Business Institute",
+          "roomNumber": "SGMH-3280",
+          "website": "https://business.fullerton.edu/center/entrepreneurship/consulting",
+          "email": "entrepreneurship@fullerton.edu",
+          "phone": "657-278-3464"
+        },
+        {
+          "title": "Starbucks - Steven G. Mihaylo Hall",
+          "roomNumber": "",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-4943"
+        },
+        {
+          "title": "Woods Center for Economic Analysis and Forecasting",
+          "roomNumber": "SGMH-3270",
+          "website": "https://business.fullerton.edu/center/economicanalysisandforecasting",
+          "email": "",
+          "phone": "657-278-7946"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/MCBE.jpg",
+      "imageAlt": "Steven G. Mihaylo Hall",
+      "center": {
+        "lat": 33.878837,
+        "lng": -117.883428
+      },
+      "radius": 40
+    },
+    {
+      "title": "Student Health and Counseling Center Parking Lot",
+      "description": "<p>657-278-3082</p><p>parking@fullerton.edu</p><p>No visitor or public parking</p>",
+      "building": "Student Health and Counseling Center Parking Lot",
+      "buildingCode": "Student Health and Counseling Center Parking Lot",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.883437,
+        "lng": -117.884616
+      },
+      "radius": 20
+    },
+    {
+      "title": "Student Housing - Phase II",
+      "description": "",
+      "building": "Student Housing - Phase II",
+      "buildingCode": "SH2",
+      "departments": [
+        {
+          "title": "Acacia",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Academic Resource Center",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Birch",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Manzanita",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Oak",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "The Oval",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Willow",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/residence-hall.jpg",
+      "imageAlt": "Student Housing B",
+      "center": {
+        "lat": 33.885064,
+        "lng": -117.882377
+      },
+      "radius": 40
+    },
+    {
+      "title": "Student Housing - Phase III",
+      "description": "",
+      "building": "Student Housing - Phase III",
+      "buildingCode": "SH3",
+      "departments": [
+        {
+          "title": "Community Market",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Elm",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Fig",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Holly",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Housing &amp; Residential Engagement",
+          "roomNumber": "1509 East Campus Drive",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Housing Office",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Juniper",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Juniper 111 Meeting Room",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Juniper 150 Meeting Room",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Pine",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Pine 111 Meeting Room",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "Pine 140 Meeting Room",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        },
+        {
+          "title": "The Piazza",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/housing/",
+          "email": "housing@fullerton.edu",
+          "phone": "657-278-2168"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/housing.jpg",
+      "imageAlt": "Student Housing A",
+      "center": {
+        "lat": 33.88367,
+        "lng": -117.88221
+      },
+      "radius": 40
+    },
+    {
+      "title": "Student Recreation Center",
+      "description": "",
+      "building": "Student Recreation Center",
+      "buildingCode": "SRC",
+      "departments": [
+        {
+          "title": "REC Express",
+          "roomNumber": "",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-4124"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/rec-center.jpg",
+      "imageAlt": "Student Recreation Center",
+      "center": {
+        "lat": 33.883147,
+        "lng": -117.887846
+      },
+      "radius": 30
+    },
+    {
+      "title": "Student Wellness",
+      "description": "",
+      "building": "Student Wellness",
+      "buildingCode": "SHCC",
+      "departments": [
+        {
+          "title": "Counseling &amp; Psychological Services",
+          "roomNumber": "SHCC-East",
+          "website": "https://www.fullerton.edu/caps/",
+          "email": "",
+          "phone": "657-278-3040"
+        },
+        {
+          "title": "Health Services",
+          "roomNumber": "SHCC-West",
+          "website": "http://www.fullerton.edu/health/",
+          "email": "",
+          "phone": "657-278-2800"
+        },
+        {
+          "title": "Student Wellness",
+          "roomNumber": "SHCC-West",
+          "website": "https://www.fullerton.edu/studentwellness/",
+          "email": "",
+          "phone": "657-278-4370"
+        },
+        {
+          "title": "Titan Well",
+          "roomNumber": "SHCC-West",
+          "website": "https://www.fullerton.edu/titanwell/",
+          "email": "",
+          "phone": "657-278-4370"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/student-health.jpg",
+      "imageAlt": "Student Wellness",
+      "center": {
+        "lat": 33.8831842,
+        "lng": -117.8842642
+      },
+      "radius": 50
+    },
+    {
+      "title": "Titan Gymnasium",
+      "description": "<p>657-278-2777</p><a href=mailto:titanathletics@fullerton.edu>titanathletics@fullerton.edu</a><br />",
+      "building": "Titan Gymnasium",
+      "buildingCode": "TG",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/titan-gym.jpg",
+      "imageAlt": "Titan Gymnasium",
+      "center": {
+        "lat": 33.883132,
+        "lng": -117.886251
+      },
+      "radius": 30
+    },
+    {
+      "title": "Titan Hall",
+      "description": "",
+      "building": "Titan Hall",
+      "buildingCode": "THALL",
+      "departments": [
+        {
+          "title": "Counseling &amp; Psychological Services",
+          "roomNumber": "3rd Floor",
+          "website": "http://www.fullerton.edu/caps/",
+          "email": "",
+          "phone": "657-278-3040"
+        },
+        {
+          "title": "Educational Partnerships",
+          "roomNumber": "THALL-1216",
+          "website": "https://www.fullerton.edu/partnerships/",
+          "email": "ep@fullerton.edu",
+          "phone": "657-278-3923"
+        },
+        {
+          "title": "Extension and International Programs",
+          "roomNumber": "THALL-1403",
+          "website": "https://extension.fullerton.edu/",
+          "email": "eipconnect@fullerton.edu",
+          "phone": "657-278-2937"
+        },
+        {
+          "title": "Global Titans Center: Domestic CSUF Students Studying Abroad or Away",
+          "roomNumber": "THALL-1123",
+          "website": "https://extension.fullerton.edu/studyabroad/",
+          "email": "sabroad@fullerton.edu",
+          "phone": "657-278-2787"
+        },
+        {
+          "title": "Global Titans Center: International Students and Scholars (ISS) studying at CSUF, University Semester Abroad",
+          "roomNumber": "THALL-1123",
+          "website": "https://extension.fullerton.edu/international",
+          "email": "iss@fullerton.edu",
+          "phone": "657-278-2787"
+        },
+        {
+          "title": "Information/Registration - Extension and International Programs",
+          "roomNumber": "THALL-1117",
+          "website": "https://extension.fullerton.edu/",
+          "email": "eipconnect@fullerton.edu",
+          "phone": "657-278-2611"
+        },
+        {
+          "title": "Master’s Degrees",
+          "roomNumber": "THALL-1403",
+          "website": "https://extension.fullerton.edu/masters",
+          "email": "eipconnect@fullerton.edu",
+          "phone": "657-278-2611"
+        },
+        {
+          "title": "Online Bachelor’s Degrees",
+          "roomNumber": "THALL-1403",
+          "website": "https://extension.fullerton.edu/onlinedegrees/",
+          "email": "eipconnect@fullerton.edu",
+          "phone": "657-278-2611"
+        },
+        {
+          "title": "Open University",
+          "roomNumber": "THALL-1123",
+          "website": "https://extension.fullerton.edu/ou",
+          "email": "eipconnect@fullerton.edu",
+          "phone": "657-278-2787"
+        },
+        {
+          "title": "Outreach and Recruitment",
+          "roomNumber": "THALL-1203",
+          "website": "https://www.fullerton.edu/or",
+          "email": "csuforo@fullerton.edu",
+          "phone": "657-278-2086  657-278-2501"
+        },
+        {
+          "title": "Postbac Pre-Health Program",
+          "roomNumber": "THALL-1123",
+          "website": "https://extension.fullerton.edu/prehealth",
+          "email": "eipconnect@fullerton.edu",
+          "phone": "657-278-2787"
+        },
+        {
+          "title": "Professional Development Programs",
+          "roomNumber": "CP-100",
+          "website": "https://extension.fullerton.edu/professionaldevelopment",
+          "email": "",
+          "phone": "657-278-2611"
+        },
+        {
+          "title": "Summer Session",
+          "roomNumber": "THALL-1403",
+          "website": "https://extension.fullerton.edu/summer",
+          "email": "eipconnect@fullerton.edu",
+          "phone": "657-278-2611"
+        },
+        {
+          "title": "Test Preparation",
+          "roomNumber": "THALL-1403",
+          "website": "https://extension.fullerton.edu/professionaldevelopment/workshops#test-prep",
+          "email": "eipconnect@fullerton.edu",
+          "phone": "657-278-2611"
+        },
+        {
+          "title": "Titan Research Gateway",
+          "roomNumber": "",
+          "website": "http://www.fullerton.edu/doresearch/",
+          "email": "",
+          "phone": "657-278-2327"
+        },
+        {
+          "title": "Winter Session",
+          "roomNumber": "THALL-1403",
+          "website": "http://extension.fullerton.edu/winter",
+          "email": "eipconnect@fullerton.edu",
+          "phone": "657-278-2611"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/titan-hall.jpg",
+      "imageAlt": "Titan Hall",
+      "center": {
+        "lat": 33.880981,
+        "lng": -117.890324
+      },
+      "radius": 50
+    },
+    {
+      "title": "Titan House",
+      "description": "<p>657-278-2777</p><a href=mailto:titanathletics@fullerton.edu>titanathletics@fullerton.edu</a><br />",
+      "building": "Titan House",
+      "buildingCode": "TH",
+      "departments": [
+        {
+          "title": "Titan Athletics",
+          "roomNumber": "",
+          "website": "https://www.fullertontitans.com/",
+          "email": "",
+          "phone": "657-278-2777"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/titan-house.jpg",
+      "imageAlt": "Titan House",
+      "center": {
+        "lat": 33.8838522,
+        "lng": -117.8841658
+      },
+      "radius": 20
+    },
+    {
+      "title": "Titan Stadium",
+      "description": "<p>657-278-2777</p><a href=mailto:titanathletics@fullerton.edu>titanathletics@fullerton.edu</a><br />",
+      "building": "Titan Stadium",
+      "buildingCode": "TS",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/titan-stadium.jpg",
+      "imageAlt": "Titan Stadium",
+      "center": {
+        "lat": 33.886677,
+        "lng": -117.886985
+      },
+      "radius": 60
+    },
+    {
+      "title": "Titan Student Union",
+      "description": "<p>657-278-5867</p><a href=mailto:tsures2@fullerton.edu>tsures2@fullerton.edu</a><br />",
+      "building": "Titan Student Union",
+      "buildingCode": "TSU",
+      "departments": [
+        {
+          "title": "Alvarado Room",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "BAJA Fresh",
+          "roomNumber": "TSU",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-4124"
+        },
+        {
+          "title": "Bradford Room",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "Chapman Atrium",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "eventscsuf@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "Dean of Students",
+          "roomNumber": "TSU-243",
+          "website": "http://www.fullerton.edu/deanofstudents/",
+          "email": "deanofstudents@fullerton.edu",
+          "phone": "657-278-3211"
+        },
+        {
+          "title": "Fresh Kitchen",
+          "roomNumber": "TSU",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-7841"
+        },
+        {
+          "title": "Gabrielino Room",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "Gilman Room",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "Hetebrink Room",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "Hibachi-San",
+          "roomNumber": "TSU",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-7841"
+        },
+        {
+          "title": "Juice It Up",
+          "roomNumber": "TSU",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-7841"
+        },
+        {
+          "title": "Legislative Chambers",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "OC Choice Express",
+          "roomNumber": "TSU-160",
+          "website": "http://www.fullerton.edu/occhoice/",
+          "email": "occhoiceexpress@fullerton.edu",
+          "phone": "657-278-4124"
+        },
+        {
+          "title": "Ontiveros Room",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "Panda Express",
+          "roomNumber": "TSU",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-4124"
+        },
+        {
+          "title": "Pieology",
+          "roomNumber": "TSU",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-4124"
+        },
+        {
+          "title": "Presidents' Room",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "Starbucks - TSU",
+          "roomNumber": "",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-4943"
+        },
+        {
+          "title": "Stearns Room",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "Student Life and Leadership",
+          "roomNumber": "TSU-234",
+          "website": "https://www.fullerton.edu/sll/",
+          "email": "studentlife@fullerton.edu",
+          "phone": "657-278-7622"
+        },
+        {
+          "title": "The Portola Pavilion",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "eventscsuf@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "The Yum",
+          "roomNumber": "TSU",
+          "website": "http://www.titanshops.com/",
+          "email": "titanshopsweb@fullerton.edu",
+          "phone": "657-278-3418"
+        },
+        {
+          "title": "Titan Bowl &amp; Billiards",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "recgames@fullerton.edu",
+          "phone": "657-278-2144"
+        },
+        {
+          "title": "Titan Theater",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "eventscsuf@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "TOGO'S",
+          "roomNumber": "TSU",
+          "website": "https://www.fullerton.edu/food/hours/",
+          "email": "csufcampusdining@fullerton.edu",
+          "phone": "657-278-4124"
+        },
+        {
+          "title": "Tuffree Room",
+          "roomNumber": "TSU",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        },
+        {
+          "title": "University Conference Center offices",
+          "roomNumber": "TSU-121",
+          "website": "https://asi.fullerton.edu/titan-student-union#UCC",
+          "email": "tsures2@fullerton.edu",
+          "phone": "657-278-5867"
+        }
+      ],
+      "image": "https://uawebstg.fullerton.edu/campusmapv2/_resources/images/TSU.jpg",
+      "imageAlt": "Titan Student Union",
+      "center": {
+        "lat": 33.881795,
+        "lng": -117.888204
+      },
+      "radius": 60
+    },
+    {
+      "title": "Titan Track and Field",
+      "description": "<p>657-278-2777</p><a href=mailto:titanathletics@fullerton.edu>titanathletics@fullerton.edu</a><br />",
+      "building": "Titan Track and Field",
+      "buildingCode": "Titan Track and Field",
+      "departments": [],
+      "image": "",
+      "imageAlt": "",
+      "center": {
+        "lat": 33.885144,
+        "lng": -117.886230
+      },
+      "radius": 40
+    },
+    {
+      "title": "University Police",
+      "description": "<p>657-278-2525</p><p><a href=http://police.fullerton.edu/ target=_blank>http://police.fullerton.edu/</a></p>",
+      "building": "University Police",
+      "buildingCode": "UP",
+      "departments": [],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/police.jpg",
+      "imageAlt": "University Police",
+      "center": {
+        "lat": 33.883025,
+        "lng": -117.889270
+      },
+      "radius": 20
+    },
+    {
+      "title": "Visual Arts",
+      "description": "",
+      "building": "Visual Arts",
+      "buildingCode": "VA",
+      "departments": [
+        {
+          "title": "Begovich Gallery",
+          "roomNumber": "VA-A",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-7750"
+        },
+        {
+          "title": "College of the Arts",
+          "roomNumber": "VA-199",
+          "website": "http://www.fullerton.edu/arts/",
+          "email": "",
+          "phone": "657-278-3256"
+        },
+        {
+          "title": "Duff Gallery",
+          "roomNumber": "VA-A",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-7750"
+        },
+        {
+          "title": "Exit Gallery",
+          "roomNumber": "VA-E",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-7750"
+        },
+        {
+          "title": "Freedman Gallery",
+          "roomNumber": "VA-F",
+          "website": "http://www.fullerton.edu/arts/aboutus/facilities.php",
+          "email": "",
+          "phone": "657-278-7750"
+        },
+        {
+          "title": "Student Success Center - College of the Arts",
+          "roomNumber": "VA-280A",
+          "website": "https://www.fullerton.edu/arts/students/student_success_center/index.php",
+          "email": "cotassc@fullerton.edu",
+          "phone": "657-278-4108"
+        },
+        {
+          "title": "Visual Arts",
+          "roomNumber": "VA-102",
+          "website": "https://www.fullerton.edu/arts/art/about_us/contact.php",
+          "email": "",
+          "phone": "657-278-3471"
+        }
+      ],
+      "image": "https://www.fullerton.edu/campusmap/_resources/images/vis-art.jpg",
+      "imageAlt": "Visual Arts",
+      "center": {
+        "lat": 33.8807217,
+        "lng": -117.8889763
+      },
+      "radius": 60
+    }
+  ]
+}
