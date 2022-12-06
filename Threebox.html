@@ -23,6 +23,16 @@
   <script>
     var map, datasource, popup;
 
+    var api = {
+      count: 212,
+      animation: true,
+    };
+    var model = {
+      obj: "models/untitled.gltf",
+      type: "gltf",
+      scale: 160,
+    };
+
     function GetMap() {
       map = new atlas.Map("map", {
         center: [-117.8854, 33.8833],
@@ -54,8 +64,105 @@
 
       // Wait until the map resources are ready
       map.events.add("ready", function () {
+        feature();
+      });
 
-        datasource = new atlas.source.DataSource();
+      // Attach an event to capture when the map is moved
+      map.events.add("moveend", function () {
+        updateStatus();
+      });
+
+      updateStatus();
+
+      let intMap = map.map;
+      window.tb = new Threebox(
+        intMap,
+        intMap.getCanvas().getContext("webgl"),
+        {
+          defaultLights: true,
+          enableSelectingObjects: false, //change this to false to disable 3D objects selection
+          enableDraggingObjects: false, //change this to false to disable 3D objects drag & move once selected
+          enableRotatingObjects: false, //change this to false to disable 3D objects rotation once selected
+          enableTooltips: false, // change this to false to disable default tooltips on fill-extrusion and 3D models
+        }
+      );
+
+      map.events.add("style.load", function (e) {
+
+        intMap.addLayer({
+          id: "custom_layer",
+          type: "custom",
+          renderingMode: "3d",
+          onAdd: function (map, context) {
+            initMesh();
+          },
+
+          render: function (gl, matrix) {
+            tb.update();
+          },
+        });
+      }, 'points');
+    }
+
+    function initMesh() {
+      let diff = api.count - tb.world.children.length;
+      if (diff == 0) return;
+
+      var options = {
+        obj: model.obj,
+        type: model.type,
+        scale: model.scale,
+        units: "meters",
+        rotation: { x: 90, y: 90, z: 0 },
+        anchor: "center",
+        cloned: true,
+      };
+      if (!processing) makeNaive(options, diff);
+    }
+
+    let processing = false;
+
+    function makeNaive(options, diff) {
+      // Create a data source and add it to the map.
+      var ds_map = new atlas.source.DataSource();
+      map.sources.add(ds_map);
+
+      // Load some point data into the data source.
+      ds_map.importDataFromUrl("map_locs.json").then(() => {
+        processing = true;
+        let j = 0;
+        for (var i = 0; i < diff; i++) {
+          tb.loadObj(options, function (model) {
+            j++;
+
+            let lng = ds_map.getShapeById(j).getCoordinates()[0];
+            console.log(ds_map.getShapeById(j))
+            let lat = ds_map.getShapeById(j).getCoordinates()[1];
+            let obj = model.setCoords([lng, lat, -20]);
+
+            tb.add(obj);
+          });
+        }
+        map.repaint = true;
+      });
+    }
+
+    function updateStatus() {
+      var camera = map.getCamera();
+      var zoom = camera.zoom;
+      var cp = camera.center;
+      var pitch = camera.pitch;
+      var bearing = camera.bearing;
+      document.getElementById("status").innerHTML =
+        "Zoom: " + zoom.toFixed(1) +
+        " / Lon: " +  cp[0].toFixed(5) +
+        " / Lat: " +  cp[1].toFixed(5) +
+        " / Pitch: " + pitch.toFixed(1) +
+        " / Bearing: " + bearing.toFixed(1);
+    }
+
+    function feature(){
+      datasource = new atlas.source.DataSource();
         map.sources.add(datasource);
 
         $(function(){
@@ -98,117 +205,6 @@
             position: "top-right",
           }
         );
-      });
-
-      // Attach an event to capture when the map is moved
-      map.events.add("moveend", function () {
-        updateStatus();
-
-      });
-
-      updateStatus();
-
-      let intMap = map.map;
-      window.tb = new Threebox(
-        intMap,
-        intMap.getCanvas().getContext("webgl"),
-        {
-          defaultLights: true,
-          enableSelectingObjects: false, //change this to false to disable 3D objects selection
-          enableDraggingObjects: false, //change this to false to disable 3D objects drag & move once selected
-          enableRotatingObjects: false, //change this to false to disable 3D objects rotation once selected
-          enableTooltips: false, // change this to false to disable default tooltips on fill-extrusion and 3D models
-        }
-      );
-
-      map.events.add("style.load", function (e) {
-
-        intMap.addLayer({
-          id: "custom_layer",
-          type: "custom",
-          renderingMode: "3d",
-          onAdd: function (map, context) {
-            initMesh();
-          },
-
-          render: function (gl, matrix) {
-            tb.update();
-          },
-        });
-      }, 'points');
-    }
-
-    var api = {
-      count: 212,
-      animation: true,
-    };
-
-    var model = {
-      obj: "models/untitled.gltf",
-      type: "gltf",
-      scale: 160,
-    };
-
-    function initMesh() {
-      let diff = api.count - tb.world.children.length;
-      if (diff == 0) return;
-
-      var options = {
-        obj: model.obj,
-        type: model.type,
-        scale: model.scale,
-        units: "meters",
-        rotation: { x: 90, y: 90, z: 0 },
-        anchor: "center",
-        cloned: true,
-      };
-      if (!processing) makeNaive(options, diff);
-    }
-
-    let processing = false;
-
-    function makeNaive(options, diff) {
-      // Create a data source and add it to the map.
-      var dsWindmills = new atlas.source.DataSource();
-      map.sources.add(dsWindmills);
-
-      // Load some point data into the data source.
-      dsWindmills.importDataFromUrl("map_locs.json").then(() => {
-        processing = true;
-        let j = 0;
-        for (var i = 0; i < diff; i++) {
-          tb.loadObj(options, function (model) {
-            j++;
-
-            let lng = dsWindmills.getShapeById(j).getCoordinates()[0];
-            console.log(dsWindmills.getShapeById(j))
-            let lat = dsWindmills.getShapeById(j).getCoordinates()[1];
-            let obj = model.setCoords([lng, lat, -20]);
-
-            tb.add(obj);
-          });
-        }
-        map.repaint = true;
-      });
-    }
-
-    function updateStatus() {
-      var camera = map.getCamera();
-      var zoom = camera.zoom;
-      var cp = camera.center;
-      var pitch = camera.pitch;
-      var bearing = camera.bearing;
-      document.getElementById("status").innerHTML =
-        "Zoom: " +
-        zoom.toFixed(1) +
-        " / Lon: " +
-        cp[0].toFixed(5) +
-        " / Lat: " +
-        cp[1].toFixed(5) +
-        " / Pitch: " +
-        pitch.toFixed(1) +
-        " / Bearing: " +
-        bearing.toFixed(1);
     }
 
     function featureClicked(e) {
@@ -244,7 +240,7 @@
   <div id="map"></div>
 
   <div style="position:absolute;top:15px;left:15px;background-color:white;padding:10px;border-radius:10px;">
-    <input type="text" id="input" value="New York" />
+    <input type="text" id="input" value="Computer Science" />
     <input type="button" onClick="search()" value="Search" />
   </div>
 
