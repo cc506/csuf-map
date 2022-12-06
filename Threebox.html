@@ -8,11 +8,6 @@
   <link rel="shortcut icon" href="/favicon.ico" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="This sample shows how to creat a custome 3D layer with Threebox." />
-  <meta name="keywords"
-    content="3D, Microsoft maps, map, gis, API, SDK, thematic, choropleth, heatmap, heat map, animation, animate, animations, county, population, data-driven, data driven styling, temporal, temporal analysis" />
-  <meta name="author" content="Microsoft Azure Maps" />
-  <meta name="screenshot" content="screenshot.gif" />
 
   <!-- Add references to the Azure Maps Map control JavaScript and CSS files. -->
   <link href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css" rel="stylesheet" />
@@ -79,7 +74,26 @@
 
         var pointLayer = new atlas.layer.SymbolLayer(datasource);
 
-        map.layers.add([pointLayer], 'points');
+        map.layers.add([pointLayer], 'points', {
+          textOptions: {
+            textField: [
+                'format',
+
+                //Bold the title property and scale its font size up.
+                ['get', 'title'],
+                {
+                    'text-font': ['literal', ['StandardFont-Bold']],
+                    'font-scale': 1.25
+                },
+
+                '\n', {},   //Add a new line without any formatting.
+
+                //Scale the font size down of the subtitle property. 
+                ['get', 'subtitle'],
+                { 'font-scale': 0.75 }
+            ]
+          }
+        });
 
         //Add click events to the polygon and line layers.
         map.events.add('click', [pointLayer], featureClicked);
@@ -257,14 +271,6 @@
             pos = e.shapes[0].getCoordinates();
             offset = [0, -18];
           }
-        } else {
-          properties = e.shapes[0].properties;
-
-          //If the shape is a point feature, show the popup at the points coordinate.
-          if (e.shapes[0].type === 'Point') {
-            pos = e.shapes[0].geometry.coordinates;
-            offset = [0, -18];
-          }
         }
 
         //Update the content and position of the popup.
@@ -284,6 +290,12 @@
 
 <body onload="GetMap()">
   <div id="map"></div>
+
+  <div style="position:absolute;top:15px;left:15px;background-color:white;padding:10px;border-radius:10px;">
+    <input type="text" id="input" value="New York" />
+    <input type="button" onClick="search()" value="Search" />
+  </div>
+
   <div id="status"></div>
 
 </body>
