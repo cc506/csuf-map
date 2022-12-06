@@ -72,28 +72,14 @@
           });
         });
 
-        var pointLayer = new atlas.layer.SymbolLayer(datasource);
-
-        map.layers.add([pointLayer], 'points', {
+        var pointLayer = new atlas.layer.SymbolLayer(datasource, null, {
           textOptions: {
-            textField: [
-                'format',
-
-                //Bold the title property and scale its font size up.
-                ['get', 'title'],
-                {
-                    'text-font': ['literal', ['StandardFont-Bold']],
-                    'font-scale': 1.25
-                },
-
-                '\n', {},   //Add a new line without any formatting.
-
-                //Scale the font size down of the subtitle property. 
-                ['get', 'subtitle'],
-                { 'font-scale': 0.75 }
-            ]
+            textField: ['get', 'title'],    //Specify the property name that contains the text you want to appear with the symbol.
+            offset: [0, 1.2]
           }
         });
+
+        map.layers.add([pointLayer], 'points');
 
         //Add click events to the polygon and line layers.
         map.events.add('click', [pointLayer], featureClicked);
@@ -152,16 +138,11 @@
       }, 'points');
     }
 
-    let geometry = false;
-    let meshes = [];
-
     var api = {
       count: 212,
       animation: true,
     };
 
-    // Creative Commons License attribution: Windmill animated model by https://sketchfab.com/data3anshow
-    // from https://sketchfab.com/3d-models/windmill-animated-6ce5667e8d5c47068ea13196036efd52
     var model = {
       obj: "models/untitled.gltf",
       type: "gltf",
@@ -172,25 +153,16 @@
       let diff = api.count - tb.world.children.length;
       if (diff == 0) return;
 
-      if (tb.world.children.length > api.count) {
-        for (let j = tb.world.children.length - 1; j >= api.count; j--) {
-          var obj = tb.world.children[j];
-          tb.remove(obj);
-        }
-
-        map.repaint = true;
-      } else {
-        var options = {
-          obj: model.obj,
-          type: model.type,
-          scale: model.scale,
-          units: "meters",
-          rotation: { x: 90, y: 90, z: 0 },
-          anchor: "center",
-          cloned: true,
-        };
-        if (!processing) makeNaive(options, diff);
-      }
+      var options = {
+        obj: model.obj,
+        type: model.type,
+        scale: model.scale,
+        units: "meters",
+        rotation: { x: 90, y: 90, z: 0 },
+        anchor: "center",
+        cloned: true,
+      };
+      if (!processing) makeNaive(options, diff);
     }
 
     let processing = false;
@@ -207,29 +179,13 @@
         for (var i = 0; i < diff; i++) {
           tb.loadObj(options, function (model) {
             j++;
-            if (!geometry) {
-              model.traverse(function (object) {
-                if (object.isMesh) meshes.push(object.geometry);
-              });
-              geometry = true;
-            }
 
             let lng = dsWindmills.getShapeById(j).getCoordinates()[0];
             console.log(dsWindmills.getShapeById(j))
             let lat = dsWindmills.getShapeById(j).getCoordinates()[1];
-            let obj = model.setCoords([lng, lat, 0]);
+            let obj = model.setCoords([lng, lat, -20]);
 
             tb.add(obj);
-
-            if (api.animation) {
-              // play default animation, for 5 min. = 300 seconds
-              let opt = { animation: 0, duration: 300000 };
-              obj.playDefault(opt);
-            }
-
-            if (j == diff) {
-              processing = false;
-            }
           });
         }
         map.repaint = true;
@@ -263,15 +219,11 @@
         var offset = [0, 0];
         var properties;
 
-        if (e.shapes[0] instanceof atlas.Shape) {
-          properties = e.shapes[0].getProperties();
+        properties = e.shapes[0].getProperties();
 
-          //If the shape is a point feature, show the popup at the points coordinate.
-          if (e.shapes[0].getType() === 'Point') {
-            pos = e.shapes[0].getCoordinates();
-            offset = [0, -18];
-          }
-        }
+        //If the shape is a point feature, show the popup at the points coordinate.
+        pos = e.shapes[0].getCoordinates();
+        offset = [0, -18];
 
         //Update the content and position of the popup.
         popup.setOptions({
