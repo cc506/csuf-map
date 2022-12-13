@@ -1,14 +1,16 @@
 var map, datasource, temp, popup, legend, arr;
 
 var api = {
-    count: 212,
-    animation: true,
+    count: 1000
 };
 var model = {
     obj: "models/csuf.fbx",
     type: "fbx",
     scale: 1.6
 };
+
+var TOKEN = "8Di0A_aTJ5-in5NE_RVwwVQY1SgBI7X0ol9UhlGOFS4"
+var mkr = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="37" viewBox="0 0 30 37" xml:space="preserve"><rect x="0" y="0" rx="8" ry="8" width="30" height="30" fill="{color}"/><polygon fill="{color}" points="10,29 20,29 15,37 10,29"/><text x="15" y="20" style="font-size:14px;font-family:arial;fill:#ffffff;" text-anchor="middle">{text}</text></svg>'
 
 function GetMap() {
     map = new atlas.Map("map", {
@@ -35,14 +37,47 @@ function GetMap() {
 
             // Use an Azure Maps key. Get an Azure Maps key at https://azuremaps.com/. NOTE: The primary key should be used as the key.
             authType: "subscriptionKey",
-            subscriptionKey: "8Di0A_aTJ5-in5NE_RVwwVQY1SgBI7X0ol9UhlGOFS4",
+            subscriptionKey: TOKEN,
         },
     });
 
     // Wait until the map resources are ready
     map.events.add("ready", function () {
-        feature();
+        datasource = new atlas.source.DataSource();
+        map.sources.add(datasource);
+
+        popup = new atlas.Popup()
+
+        load();
         //legend();
+
+        var markerLayer = new atlas.layer.HtmlMarkerLayer(datasource, null, {
+            //Specify a callback to create custom markers.
+            markerCallback: function (id, position, properties) {
+                //Individual markers will be red.
+                return new atlas.HtmlMarker({
+                    position: position,
+                    color: 'DodgerBlue',
+                    text: properties.code,
+                    htmlContent: mkr
+                });
+            }
+        })
+
+        //Add the marker layer to the map.
+        map.layers.add(markerLayer);
+        map.events.add('click', markerLayer, featureClicked);
+
+        // Add controls
+        map.controls.add(
+            [
+                new atlas.control.ZoomControl(),
+                new atlas.control.PitchControl(),
+                new atlas.control.CompassControl(),
+            ], {
+                position: "top-right",
+            }
+        );
     });
 
     // Attach an event to capture when the map is moved
@@ -83,6 +118,7 @@ function GetMap() {
 
 function initMesh() {
     let diff = api.count - tb.world.children.length;
+    console.log(diff)
     if (diff == 0) return;
 
     var options = {
@@ -152,9 +188,7 @@ function search() {
             if (item.title === query) {
                 console.log(item.title, item.center.lat)
                 temp.add(new atlas.data.Feature(new atlas.data.Point([item.center.lng, item.center.lat]), {
-                    content: item.image,
-                    "title": item.title,
-                    "website": "http://www.fullerton.edu/housing/",
+
                 }));
                 console.log(temp)
             }
@@ -163,77 +197,96 @@ function search() {
     });
 }
 
-function feature() {
-    datasource = new atlas.source.DataSource();
-    map.sources.add(datasource);
-    var marker;
+// function legend(){
+//     legend = new atlas.control.LegendControl({
+//                     //Global title to display for the legend.
+//                     title: 'My Legend',
 
-    fetch('locations.json')
-        .then(res => {
-            if (!res.ok) {
-                throw new Error("Error" + res.status)
-            }
-            return res.json();
-        }).then(json => {
+//                     //Hide the button to collapse the legend.
+//                     showToggle: false,
 
-        }).catch(err => {
-            console.log(err)
+//                     //All legend cards to display within the legend control.
+//                     legends: [
+//                        {
+//                             type: 'category',
+//                             subtitle: 'Category',
+//                             layout: 'column',
+//                             itemLayout: 'row',
+//                             footer: 'A category legend that uses a combination of shapes and icons.',
+//                             strokeWidth: 2,
+//                             items: [
+//                                 {
+//                                     color: 'DodgerBlue',
+//                                     label: 'label1',
+
+//                                     //Url to an image.
+//                                     shape: '/images/icons/campfire.png',
+//                                     alt: 'Campfire'
+//                                 }, {
+//                                     color: 'Yellow',
+//                                     label: 'label2',
+//                                     shape: 'square'
+//                                 }, {
+//                                     color: 'Orange',
+//                                     label: 'Ricky',
+//                                     shape: 'line'
+//                                 }, {
+//                                     color: 'Red',
+//                                     label: 'is',
+//                                     shape: 'circle'
+//                                 }, {
+//                                     color: 'purple',
+//                                     label: 'awesome!',
+//                                     shape: 'triangle'
+//                                 }
+//                             ]
+//                         }
+//                     ]
+//                 });
+
+//                 //Add the legend control to the map.
+//                 map.controls.add(legend, {
+//                     position: 'bottom-left'
+//                 });
+//   }
+
+function load() {
+
+    $(function () {
+        $.getJSON('locations.json', function (data) {
+            $.each(data.locations, function (i, r) {
+                datasource.add(new atlas.data.Feature(new atlas.data.Point([r.center.lng, r.center.lat]), {
+                    "title": r.title,
+                    "desc": r.description,
+                    "code": r.buildingCode,
+                    "department": r.departments,
+                    "img": r.image,
+                    "imgAlt": r.imageAlt
+                }));
+            });
+        }).error(function () {
+            console.log('error');
         });
-
-    var pointLayer = new atlas.layer.SymbolLayer(datasource, null, {
-        textOptions: {
-            color: "#ebe5e5",
-            haloColor: "#000000",
-            haloWidth: 2.4,
-            textField: ['get', 'title'], //Specify the property name that contains the text you want to appear with the symbol.
-            offset: [0, 1.2]
-        }
     });
-
-    map.layers.add([pointLayer], 'points');
-
-    //Add click events to the polygon and line layers.
-    map.events.add('click', [pointLayer], featureClicked);
-
-    //Create a popup but leave it closed so we can update it and display it later.
-    popup = new atlas.Popup();
-
-    // Add controls
-    map.controls.add(
-        [
-            new atlas.control.ZoomControl(),
-            new atlas.control.PitchControl(),
-            new atlas.control.CompassControl(),
-        ], {
-            position: "top-right",
-        }
-    );
 }
 
 function featureClicked(e) {
     //Make sure the event occurred on a shape feature.
-    console.log(e)
-    if (e.shapes && e.shapes.length > 0) {
+        console.log(e.target.properties.desc)
         //By default, show the popup where the mouse event occurred.
-        var pos = e.position;
-        var offset = [0, 0];
-        var properties;
-
-        properties = e.shapes[0].getProperties();
-
-        //If the shape is a point feature, show the popup at the points coordinate.
-        pos = e.shapes[0].getCoordinates();
-        offset = [0, -18];
+        var pos = e.target.getOptions().position;
+        var offset = [0, -40];
+        var div = e.target.properties.desc;
 
         //Update the content and position of the popup.
         popup.setOptions({
             //Create a table from the properties in the feature.
-            content: atlas.PopupTemplate.applyTemplate(properties),
+            content: div,
             position: pos,
             pixelOffset: offset
         });
 
         //Open the popup.
         popup.open(map);
-    }
+
 }
