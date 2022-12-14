@@ -1,4 +1,4 @@
-var map, datasource, temp, popup, legend, arr;
+var map, datasource, popup, legend, arr;
 
 var api = {
     count: 1000
@@ -41,12 +41,12 @@ function GetMap() {
         },
     });
 
+    popup = new atlas.Popup()
+
     // Wait until the map resources are ready
     map.events.add("ready", function () {
         datasource = new atlas.source.DataSource();
         map.sources.add(datasource);
-
-        popup = new atlas.Popup()
 
         load();
         //legend();
@@ -66,7 +66,7 @@ function GetMap() {
 
         //Add the marker layer to the map.
         map.layers.add(markerLayer);
-        map.events.add('click', markerLayer, featureClicked);
+        map.events.add('click', markerLayer, featureClicked)
 
         // Add controls
         map.controls.add(
@@ -183,18 +183,20 @@ function search() {
 
     var query = document.getElementById('input').value;
 
-    $.getJSON('locations.json', function (data) {
-        return data.locations.findIndex(function (item, index) {
-            if (item.title === query) {
-                console.log(item.title, item.center.lat)
-                temp.add(new atlas.data.Feature(new atlas.data.Point([item.center.lng, item.center.lat]), {
+    var temp = []
 
-                }));
-                console.log(temp)
-            }
+    let d = datasource.shapes[0].data.properties
 
-        })
-    });
+    for(let i = 0; i < datasource.shapes.length; i++) {
+        const t = datasource.shapes[i].getProperties()
+        temp.push(t.title)
+        if (t.title === query) {
+            searchClicked(datasource.getShapeById(t._azureMapsShapeId).data)
+            map.setCamera({
+                center: datasource.getShapeById(t._azureMapsShapeId).getCoordinates() 
+            })
+        }
+    }
 }
 
 // function legend(){
@@ -270,9 +272,30 @@ function load() {
     });
 }
 
+function searchClicked(e) {
+    //Make sure the event occurred on a shape feature.
+        console.log(e)
+        //By default, show the popup where the mouse event occurred.
+        var pos = e.geometry.coordinates;
+        var offset = [0, -40];
+        var div = e.properties.desc;
+
+        //Update the content and position of the popup.
+        popup.setOptions({
+            //Create a table from the properties in the feature.
+            content: `<div style="padding:10px">${div}</div>`,
+            position: pos,
+            pixelOffset: offset
+        });
+
+        //Open the popup.
+        popup.open(map);
+
+}
+
 function featureClicked(e) {
     //Make sure the event occurred on a shape feature.
-        console.log(e.target.properties.desc)
+        console.log(e)
         //By default, show the popup where the mouse event occurred.
         var pos = e.target.getOptions().position;
         var offset = [0, -40];
@@ -281,7 +304,7 @@ function featureClicked(e) {
         //Update the content and position of the popup.
         popup.setOptions({
             //Create a table from the properties in the feature.
-            content: div,
+            content: `<div style="padding:10px">${div}</div>`,
             position: pos,
             pixelOffset: offset
         });
