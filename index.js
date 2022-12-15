@@ -1,4 +1,4 @@
-var map, datasource, popup, legend, arr;
+var map, datasource, popup, legend, arr, list;
 
 var api = {
     count: 1000
@@ -15,9 +15,9 @@ var mkr = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.or
 function GetMap() {
     map = new atlas.Map("map", {
         center: [-117.8854, 33.8833],
-        zoom: 14.7,
-        pitch: 60,
-        bearing: 130.8,
+        zoom: 15.7,
+        pitch: 80,
+        bearing: -180,
         showBuildingModels: true,
 
         // Add authentication details for connecting to Azure Maps.
@@ -35,13 +35,14 @@ function GetMap() {
                     .then((token) => resolve(token));
             },
 
-            // Use an Azure Maps key. Get an Azure Maps key at https://azuremaps.com/. NOTE: The primary key should be used as the key.
+            // Use an Azure Maps key. Get an Azure Maps key at https://azuremaps.com/.
             authType: "subscriptionKey",
             subscriptionKey: TOKEN,
         },
     });
 
     popup = new atlas.Popup()
+    list = document.getElementById('list');
 
     // Wait until the map resources are ready
     map.events.add("ready", function () {
@@ -106,7 +107,7 @@ function GetMap() {
             type: "custom",
             renderingMode: "3d",
             onAdd: function (map, context) {
-                initMesh();
+                mapInit();
             },
 
             render: function (gl, matrix) {
@@ -116,9 +117,8 @@ function GetMap() {
     }, 'points');
 }
 
-function initMesh() {
+function mapInit() {
     let diff = api.count - tb.world.children.length;
-    console.log(diff)
     if (diff == 0) return;
 
     var options = {
@@ -134,15 +134,14 @@ function initMesh() {
         anchor: "center",
         cloned: true,
     };
-    if (!processing) makeNaive(options, diff);
+    if (!processing) showMap(options, diff);
 }
 
 let processing = false;
 
-function makeNaive(options, diff) {
+function showMap(options, diff) {
     // Create a data source and add it to the map.
     var ds_map = new atlas.source.DataSource();
-    console.log(ds_map)
     map.sources.add(ds_map);
 
     // Load some point data into the data source.
@@ -180,22 +179,25 @@ function updateStatus() {
 
 function search() {
     popup.close();
+    list.innerHTML = '';
 
     var query = document.getElementById('input').value;
-
-    var temp = []
-
-    let d = datasource.shapes[0].data.properties
+    var temp = [];
 
     for(let i = 0; i < datasource.shapes.length; i++) {
         const t = datasource.shapes[i].getProperties()
-        temp.push(t.title)
-        if (t.title === query) {
-            searchClicked(datasource.getShapeById(t._azureMapsShapeId).data)
-            map.setCamera({
-                center: datasource.getShapeById(t._azureMapsShapeId).getCoordinates() 
-            })
-        }
+        temp.push(t)
+        temp = temp.filter(name => name.title.includes(query))
+    }
+
+    var html = [];
+
+    for(let j of temp){
+        //console.log(j)
+        html.push('<li onClick="clickEvent(\'', j._azureMapsShapeId, '\')">')
+        html.push(j.title);
+        html.push('</li>');
+        list.innerHTML = html.join('')
     }
 }
 
@@ -252,6 +254,13 @@ function search() {
 //                 });
 //   }
 
+function clickEvent(id){
+    searchClicked(datasource.getShapeById(id).data)
+    map.setCamera({
+        center: datasource.getShapeById(id).getCoordinates() 
+    })
+}
+
 function load() {
 
     $(function () {
@@ -274,7 +283,7 @@ function load() {
 
 function searchClicked(e) {
     //Make sure the event occurred on a shape feature.
-        console.log(e)
+        //console.log(e)
         //By default, show the popup where the mouse event occurred.
         var pos = e.geometry.coordinates;
         var offset = [0, -40];
@@ -295,7 +304,7 @@ function searchClicked(e) {
 
 function featureClicked(e) {
     //Make sure the event occurred on a shape feature.
-        console.log(e)
+        //console.log(e)
         //By default, show the popup where the mouse event occurred.
         var pos = e.target.getOptions().position;
         var offset = [0, -40];

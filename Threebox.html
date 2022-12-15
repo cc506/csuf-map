@@ -21,9 +21,10 @@
   <!-- Add a reference to the Azure Maps Services Module JavaScript file. -->
   <script src="https://atlas.microsoft.com/sdk/javascript/service/2/atlas-service.min.js"></script>
 
-  <link href="sample.css" rel="stylesheet" />
   <script src="/dist/azure-maps-html-marker-layer.min.js"></script>
   <script src = "index.js"></script>
+  <link href="sample.css" rel="stylesheet" />
+  
 </head>
 
 <body onload="GetMap()">
@@ -33,7 +34,7 @@
     <input type="text" id="input" value="Computer Science" />
     <input type="button" onClick="search()" value="Search" />
 
-    <div id="list"></div>
+    <ul id="list"></ul>
   </div>
 
   <div id="status"></div>
