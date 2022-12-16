@@ -75,9 +75,7 @@ function GetMap() {
         legend();
 
         var markerLayer = new atlas.layer.HtmlMarkerLayer(datasource, null, {
-            //Specify a callback to create custom markers.
             markerCallback: function (id, position, properties) {
-                //Individual markers will be red.
                 if(properties.radius != 0 || properties.radius != 1){
                     return new atlas.HtmlMarker({
                         position: position,
@@ -129,10 +127,10 @@ function GetMap() {
         intMap,
         intMap.getCanvas().getContext("webgl"), {
             defaultLights: true,
-            enableSelectingObjects: false, //change this to false to disable 3D objects selection
-            enableDraggingObjects: false, //change this to false to disable 3D objects drag & move once selected
-            enableRotatingObjects: false, //change this to false to disable 3D objects rotation once selected
-            enableTooltips: false, // change this to false to disable default tooltips on fill-extrusion and 3D models
+            enableSelectingObjects: false,
+            enableDraggingObjects: false, 
+            enableRotatingObjects: false, 
+            enableTooltips: false, 
         }
     );
 
@@ -256,10 +254,7 @@ function legend(){
                                 {
                                     color: 'DodgerBlue',
                                     label: 'Buildings',
-
-                                    //Url to an image.
                                     shape: mkr,
-                                    alt: 'Campfire'
                                 }, 
                                 {
                                     color: 'Yellow',
@@ -306,9 +301,6 @@ function load() {
 }
 
 function searchClicked(e) {
-    //Make sure the event occurred on a shape feature.
-        //console.log(e)
-        //By default, show the popup where the mouse event occurred.
         var pos = e.geometry.coordinates;
         var offset = [0, -40];
         var props = e.properties;
@@ -327,9 +319,6 @@ function searchClicked(e) {
 }
 
 function featureClicked(e) {
-    //Make sure the event occurred on a shape feature.
-        //console.log(e)
-        //By default, show the popup where the mouse event occurred.
         var pos = e.target.getOptions().position;
         var offset = [0, -40];
         var props = e.target.properties;
