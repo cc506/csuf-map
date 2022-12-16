@@ -793,7 +793,7 @@
       "title": "Eastside (Folino Drive) Visitor Information center",
       "description": "<p>657-278-3082</p><p>vicstaff@fullerton.edu</p><p>Visitors may purchase daily permit - credit cards only</p>",
       "building": "Eastside (Folino Drive) Visitor Information center",
-      "buildingCode": "FD",
+      "buildingCode": "FDV",
       "departments": [],
       "image": "https://www.fullerton.edu/campusmap/_resources/images/Becker.jpg",
       "imageAlt": "Becker Amphitheater",
@@ -818,9 +818,9 @@
       "radius": 40
     },
     {
-      "title": "Eastside Parking Structure 2 (Under Construction)",
+      "title": "Eastside Parking Structure 2",
       "description": "<p><a href=http://parking.fullerton.edu/parkinglotcounts/mobile.aspx target=_blank>Parking Space Availability</a></p>",
-      "building": "Eastside Parking Structure 2 (Under Construction)",
+      "building": "Eastside Parking Structure 2",
       "buildingCode": "EP2",
       "departments": [],
       "image": "https://www.fullerton.edu/campusmap/_resources/images/eastside-parking.jpg",

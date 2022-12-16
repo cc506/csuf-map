@@ -9,13 +9,35 @@ var model = {
     scale: 1.6
 };
 
+var templateOptions = {
+    content: [
+      {
+        propertyPath: 'img',
+        hideLabel: true,
+        hideImageLabel: true,
+        sandboxContent: false,
+        hyperlinkFormat: {
+          isImage: true
+        }
+      },
+      {
+          propertyPath: 'desc',
+          hideLabel: true,
+          hyperlinkFormat: {
+            target: '_blank',
+            scheme: 'mailto:'
+          }
+      }
+    ]
+}
+
 var TOKEN = "8Di0A_aTJ5-in5NE_RVwwVQY1SgBI7X0ol9UhlGOFS4"
 var mkr = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="37" viewBox="0 0 30 37" xml:space="preserve"><rect x="0" y="0" rx="8" ry="8" width="30" height="30" fill="{color}"/><polygon fill="{color}" points="10,29 20,29 15,37 10,29"/><text x="15" y="20" style="font-size:14px;font-family:arial;fill:#ffffff;" text-anchor="middle">{text}</text></svg>'
 
 function GetMap() {
     map = new atlas.Map("map", {
-        center: [-117.8854, 33.8833],
-        zoom: 15.7,
+        center: [-117.88498, 33.88634],
+        zoom: 16.5,
         pitch: 80,
         bearing: -180,
         showBuildingModels: true,
@@ -50,18 +72,32 @@ function GetMap() {
         map.sources.add(datasource);
 
         load();
-        //legend();
+        legend();
 
         var markerLayer = new atlas.layer.HtmlMarkerLayer(datasource, null, {
             //Specify a callback to create custom markers.
             markerCallback: function (id, position, properties) {
                 //Individual markers will be red.
-                return new atlas.HtmlMarker({
-                    position: position,
-                    color: 'DodgerBlue',
-                    text: properties.code,
-                    htmlContent: mkr
-                });
+                if(properties.radius != 0 || properties.radius != 1){
+                    return new atlas.HtmlMarker({
+                        position: position,
+                        color: 'DodgerBlue',
+                        text: properties.code,
+                        htmlContent: mkr
+                    });
+                } else {
+                    let content = mkr
+
+                    switch(properties.radius){
+                        case 0:
+                            content = '<image src="/img/Uber-Lyft.svg" />'
+                            break;
+                    }
+
+                    return new atlas.HtmlMarker({
+                        htmlContent: content
+                    });
+                }
             }
         })
 
@@ -201,58 +237,45 @@ function search() {
     }
 }
 
-// function legend(){
-//     legend = new atlas.control.LegendControl({
-//                     //Global title to display for the legend.
-//                     title: 'My Legend',
+function legend(){
+    legend = new atlas.control.LegendControl({
+                    //Global title to display for the legend.
+                    title: 'Legend',
 
-//                     //Hide the button to collapse the legend.
-//                     showToggle: false,
+                    //Hide the button to collapse the legend.
+                    showToggle: true,
 
-//                     //All legend cards to display within the legend control.
-//                     legends: [
-//                        {
-//                             type: 'category',
-//                             subtitle: 'Category',
-//                             layout: 'column',
-//                             itemLayout: 'row',
-//                             footer: 'A category legend that uses a combination of shapes and icons.',
-//                             strokeWidth: 2,
-//                             items: [
-//                                 {
-//                                     color: 'DodgerBlue',
-//                                     label: 'label1',
+                    //All legend cards to display within the legend control.
+                    legends: [
+                       {
+                            type: 'category',
+                            layout: 'column',
+                            itemLayout: 'row',
+                            strokeWidth: 2,
+                            items: [
+                                {
+                                    color: 'DodgerBlue',
+                                    label: 'Buildings',
 
-//                                     //Url to an image.
-//                                     shape: '/images/icons/campfire.png',
-//                                     alt: 'Campfire'
-//                                 }, {
-//                                     color: 'Yellow',
-//                                     label: 'label2',
-//                                     shape: 'square'
-//                                 }, {
-//                                     color: 'Orange',
-//                                     label: 'Ricky',
-//                                     shape: 'line'
-//                                 }, {
-//                                     color: 'Red',
-//                                     label: 'is',
-//                                     shape: 'circle'
-//                                 }, {
-//                                     color: 'purple',
-//                                     label: 'awesome!',
-//                                     shape: 'triangle'
-//                                 }
-//                             ]
-//                         }
-//                     ]
-//                 });
+                                    //Url to an image.
+                                    shape: mkr,
+                                    alt: 'Campfire'
+                                }, 
+                                {
+                                    color: 'Yellow',
+                                    label: 'Uber/Lyft Zones',
+                                    shape: '/img/Uber-Lyft.svg'
+                                }
+                            ]
+                        }
+                    ]
+                });
 
-//                 //Add the legend control to the map.
-//                 map.controls.add(legend, {
-//                     position: 'bottom-left'
-//                 });
-//   }
+                //Add the legend control to the map.
+                map.controls.add(legend, {
+                    position: 'bottom-left'
+                });
+  }
 
 function clickEvent(id){
     searchClicked(datasource.getShapeById(id).data)
@@ -272,7 +295,8 @@ function load() {
                     "code": r.buildingCode,
                     "department": r.departments,
                     "img": r.image,
-                    "imgAlt": r.imageAlt
+                    "imgAlt": r.imageAlt,
+                    "radius": r.radius
                 }));
             });
         }).error(function () {
@@ -287,12 +311,12 @@ function searchClicked(e) {
         //By default, show the popup where the mouse event occurred.
         var pos = e.geometry.coordinates;
         var offset = [0, -40];
-        var div = e.properties.desc;
+        var props = e.properties;
 
         //Update the content and position of the popup.
         popup.setOptions({
             //Create a table from the properties in the feature.
-            content: `<div style="padding:10px">${div}</div>`,
+            content: atlas.PopupTemplate.applyTemplate(props, templateOptions),
             position: pos,
             pixelOffset: offset
         });
@@ -308,12 +332,12 @@ function featureClicked(e) {
         //By default, show the popup where the mouse event occurred.
         var pos = e.target.getOptions().position;
         var offset = [0, -40];
-        var div = e.target.properties.desc;
+        var props = e.target.properties;
 
         //Update the content and position of the popup.
         popup.setOptions({
             //Create a table from the properties in the feature.
-            content: `<div style="padding:10px">${div}</div>`,
+            content: atlas.PopupTemplate.applyTemplate(props, templateOptions),
             position: pos,
             pixelOffset: offset
         });
